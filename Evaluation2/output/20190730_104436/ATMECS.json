@@ -1,0 +1,12 @@
+{
+  "sql": "Select * from link_desc where name=\"ATMECS\"",
+  "startTime": 1564463699285,
+  "elapsedTime": 64,
+  "rowCount": 1,
+  "columns": [
+    "name",
+    "url"
+  ],
+  "rolledBack": false,
+  "sqlType": "SELECT"
+}

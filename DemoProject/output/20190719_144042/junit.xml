@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20190719_144042" timestamp="2019-07-19T14:40:42" time="11.021" tests="3" errors="0">
+  <testsuite id="1" name="DemoProject" package="DemoProject" hostname="ATMECSINDT-051" timestamp="2019-07-19T14:40:43" time="4.431" tests="3" errors="0">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-051" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="shagufta.nisar" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="DemoProject.xlsx" />
+      <property name="Logs" value="C:\projects\DemoProject\output\20190719_144042\logs\nexial-20190719_144042.log" />
+      <property name="Data File" value="DemoProject.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="JAVA_OPT" value="-Dorg.apache.poi.util.POILogger=org.apache.poi.util.NullLogger" />
+      <property name="runtime args" value="-script C:\projects\DemoProject\artifact\script\DemoProject.xlsx" />
+    </properties>
+    <testcase id="Activity 1" name="Activity 1" classname="Scenario" timestamp="2019-07-19T14:40:45" time="2.301">
+      <system-out>Total : 3
+Passed: 3
+Failed: 0
+Output: C:\projects\DemoProject\output\20190719_144042\DemoProject.20190719_144043.001.xlsx
+Logs  : C:\projects\DemoProject\output\20190719_144042\logs\nexial-20190719_144042.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

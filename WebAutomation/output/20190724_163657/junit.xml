@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20190724_163657" timestamp="2019-07-24T16:36:57" time="20.124" tests="5" errors="0">
+  <testsuite id="1" name="WebAutomation" package="WebAutomation" hostname="ATMECSINDT-051" timestamp="2019-07-24T16:36:58" time="16.511" tests="5" errors="0">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-051" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="shagufta.nisar" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="WebAutomation.xlsx" />
+      <property name="Logs" value="C:\projects\WebAutomation\output\20190724_163657\logs\nexial-20190724_163657.log" />
+      <property name="Data File" value="WebAutomation.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="JAVA_OPT" value="-Dorg.apache.poi.util.POILogger=org.apache.poi.util.NullLogger" />
+      <property name="runtime args" value="-script C:\projects\WebAutomation\artifact\script\WebAutomation.xlsx -scenario S2" />
+    </properties>
+    <testcase id="Activity 1" name="Activity 1" classname="S2" timestamp="2019-07-24T16:37:01" time="13.880">
+      <system-out>Total : 5
+Passed: 5
+Failed: 0
+Output: C:\projects\WebAutomation\output\20190724_163657\WebAutomation.20190724_163658.001.xlsx
+Logs  : C:\projects\WebAutomation\output\20190724_163657\logs\nexial-20190724_163657.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,113 @@
+2019-07-23 17:54:56,224|I|Thread-1|(DELAYED) nexial-core dev_0580 starting up...
+2019-07-23 17:54:56,240|I|Thread-1|(DELAYED) data file resolved as C:\Users\SHAGUF~1.NIS\AppData\Local\Temp\pAKFz\WebAutomation.data.xlsx
+2019-07-23 17:54:56,240|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-07-23 17:54:56,240|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-07-23 17:54:56,240|I|Thread-1|(DELAYED) [20190723_175455] [C:\projects\WebAutomation\artifact\script\WebAutomation.xlsx] resolve RUN ID as 20190723_175455
+2019-07-23 17:54:56,240|I|Thread-1|(DELAYED) [20190723_175455] [C:\projects\WebAutomation\artifact\script\WebAutomation.xlsx] new thread started
+2019-07-23 17:54:56,240|I|Thread-1|No predefined nexial-setup found
+2019-07-23 17:54:56,318|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-07-23 17:54:56,318|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-07-23 17:54:56,318|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-07-23 17:54:56,349|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-07-23 17:54:57,162|I|Thread-1|[20190723_175455] executing C:\projects\WebAutomation\artifact\script\WebAutomation.xlsx with 1 iteration(s)
+2019-07-23 17:54:57,177|I|Thread-1|[20190723_175455] create directory C:\projects\WebAutomation\output\20190723_175455\captures
+2019-07-23 17:54:57,177|I|Thread-1|[20190723_175455] create directory C:\projects\WebAutomation\output\20190723_175455\logs
+2019-07-23 17:54:58,090|I|Thread-1|[20190723_175455] merging test data to tmp file C:\projects\WebAutomation\output\20190723_175455\WebAutomation.20190723_175457.001.xlsx
+2019-07-23 17:54:58,091|I|Thread-1|refetching data from C:\projects\WebAutomation\artifact\data\WebAutomation.data.xlsx
+2019-07-23 17:54:58,405|I|Thread-1|[20190723_175455] test script and test data merged to C:\projects\WebAutomation\output\20190723_175455\WebAutomation.20190723_175457.001.xlsx
+2019-07-23 17:54:59,202|I|Thread-1|STARTS
+2019-07-23 17:54:59,233|I|Thread-1|WebAutomation.20190723_175457.001 - executing iteration #1 of 1; Iteration Id 1
+2019-07-23 17:54:59,233|I|Thread-1|WebAutomation.20190723_175457.001|Scenario - executing test scenario
+2019-07-23 17:54:59,233|I|Thread-1|WebAutomation.20190723_175457.001|Scenario|Activity 1 - executing activity
+2019-07-23 17:54:59,842|I|Thread-1|WebAutomation.20190723_175457.001|Scenario|Activity 1|#  5|web.open(url) - executing open(url)(https://www.google.com/)
+2019-07-23 17:54:59,842|I|Thread-1|No valid instance of webdriver, initializing...
+2019-07-23 17:54:59,842|I|Thread-1|init chrome
+2019-07-23 17:54:59,999|I|Thread-1|WebAutomation.20190723_175457.001|Scenario|Activity 1|#  5|web.open(url) - Executing request GET https://chromedriver.storage.googleapis.com/LATEST_RELEASE HTTP/1.1
+2019-07-23 17:54:59,999|I|Thread-1|Executing request GET https://chromedriver.storage.googleapis.com/LATEST_RELEASE HTTP/1.1
+2019-07-23 17:55:00,467|I|Thread-1|WebAutomation.20190723_175457.001|Scenario|Activity 1|#  5|web.open(url) - Executed request GET https://chromedriver.storage.googleapis.com/LATEST_RELEASE HTTP/1.1: HTTP/1.1 200 OK
+2019-07-23 17:55:00,467|I|Thread-1|Executed request GET https://chromedriver.storage.googleapis.com/LATEST_RELEASE HTTP/1.1: HTTP/1.1 200 OK
+2019-07-23 17:55:00,467|I|Thread-1|WebAutomation.20190723_175457.001|Scenario|Activity 1|#  5|web.open(url) - Saving response payload as raw bytes to Response object
+2019-07-23 17:55:00,467|I|Thread-1|Saving response payload as raw bytes to Response object
+2019-07-23 17:55:00,483|I|Thread-1|[Chrome] derived download URL as https://chromedriver.storage.googleapis.com/75.0.3770.140/chromedriver_win32.zip
+2019-07-23 17:55:00,483|I|Thread-1|WebAutomation.20190723_175457.001|Scenario|Activity 1|#  5|web.open(url) - Executing request GET https://chromedriver.storage.googleapis.com/75.0.3770.140/chromedriver_win32.zip HTTP/1.1
+2019-07-23 17:55:00,483|I|Thread-1|Executing request GET https://chromedriver.storage.googleapis.com/75.0.3770.140/chromedriver_win32.zip HTTP/1.1
+2019-07-23 17:55:00,592|I|Thread-1|WebAutomation.20190723_175457.001|Scenario|Activity 1|#  5|web.open(url) - Executed request GET https://chromedriver.storage.googleapis.com/75.0.3770.140/chromedriver_win32.zip HTTP/1.1: HTTP/1.1 200 OK
+2019-07-23 17:55:00,592|I|Thread-1|Executed request GET https://chromedriver.storage.googleapis.com/75.0.3770.140/chromedriver_win32.zip HTTP/1.1: HTTP/1.1 200 OK
+2019-07-23 17:55:00,592|I|Thread-1|WebAutomation.20190723_175457.001|Scenario|Activity 1|#  5|web.open(url) - Saving response payload to C:\Users\shagufta.nisar\.nexial\chrome\chromedriver.exe.zip
+2019-07-23 17:55:00,592|I|Thread-1|Saving response payload to C:\Users\shagufta.nisar\.nexial\chrome\chromedriver.exe.zip
+2019-07-23 17:55:01,160|I|Thread-1|[C:\Users\shagufta.nisar\.nexial\chrome\chromedriver.exe.zip]: Unzipping to C:\Users\shagufta.nisar\.nexial\chrome\chromedriver.exe
+2019-07-23 17:55:01,285|I|Thread-1|[WebDriverHelper] webdriver for chrome downloaded to C:\Users\shagufta.nisar\.nexial\chrome\chromedriver.exe
+2019-07-23 17:55:08,899|I|Thread-1|browser initialization completed for 'chrome'
+2019-07-23 17:55:08,946|I|Thread-1|setting browser polling wait time to 800 ms
+2019-07-23 17:55:08,977|I|Thread-1|setting browser page load timeout to 10000 ms
+2019-07-23 17:55:11,231|I|Thread-1|current browser window handle:CDwindow-CAAEB02027A18964DDC421DBB1171C6C
+2019-07-23 17:55:11,281|I|Thread-1|WebAutomation.20190723_175457.001|Scenario|Activity 1|#  5|web.open(url) - PASS opened URL https://www.google.com/
+2019-07-23 17:55:11,888|I|Thread-1|WebAutomation.20190723_175457.001|Scenario|Activity 1|#  6|web.assertTitle(text) - executing assertTitle(text)(Google)
+2019-07-23 17:55:11,903|I|Thread-1|WebAutomation.20190723_175457.001|Scenario|Activity 1|#  6|web.assertTitle(text) - PASS 
+2019-07-23 17:55:12,516|I|Thread-1|WebAutomation.20190723_175457.001|Scenario|Activity 1|#  7|web.assertElementPresent( - executing assertElementPresent(locator)(//input[@name='q'])
+2019-07-23 17:55:12,547|I|Thread-1|WebAutomation.20190723_175457.001|Scenario|Activity 1|#  7|web.assertElementPresent( - PASS EXPECTED element '//input[@name='q']' found
+2019-07-23 17:55:13,150|I|Thread-1|WebAutomation.20190723_175457.001|Scenario|Activity 1|#  8|web.type(locator,value) - executing type(locator,value)(//input[@name='q'], Nexial)
+2019-07-23 17:55:13,464|I|Thread-1|WebAutomation.20190723_175457.001|Scenario|Activity 1|#  8|web.type(locator,value) - PASS typed text at '//input[@name='q']'
+2019-07-23 17:55:14,067|I|Thread-1|WebAutomation.20190723_175457.001|Scenario|Activity 1|#  9|web.click(locator) - executing click(locator)(//input[@value='Google Search'])
+2019-07-23 17:55:14,113|I|Thread-1|clicking '//input[@value='Google Search']'...
+2019-07-23 17:55:14,145|I|Thread-1|click target via JS, @id=
+2019-07-23 17:55:15,993|I|Thread-1|clicked -> true
+2019-07-23 17:55:15,995|I|Thread-1|WebAutomation.20190723_175457.001|Scenario|Activity 1|#  9|web.click(locator) - PASS click via JS event
+2019-07-23 17:55:16,165|I|Thread-1|[WebAutomation.20190723_175457.001|Scenario] saving test scenario
+2019-07-23 17:55:16,276|I|Thread-1|[20190723_175455] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\WebAutomation\output\20190723_175455\WebAutomation.20190723_175457.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 17033 ms
+» Test Steps:     5
+» Error(s):       0
+
+
+
+2019-07-23 17:55:17,605|I|Thread-1|[20190723_175455] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\WebAutomation\artifact\script\WebAutomation.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 21578 ms
+» Iterations:     [1] total 1
+» Test Steps:     5
+» Passed:         5
+» Error(s):       0
+» Iteration 1 of 1: C:\projects\WebAutomation\output\20190723_175455\WebAutomation.20190723_175457.001.xlsx
+
+
+
+2019-07-23 17:55:18,103|I|main|[20190723_175455] [C:\projects\WebAutomation\artifact\script\WebAutomation.xlsx] now completed
+2019-07-23 17:55:18,103|I|main|[20190723_175455] all execution thread(s) have terminated
+2019-07-23 17:55:18,103|I|main|[20190723_175455] test run completed in about 22 seconds
+2019-07-23 17:55:18,244|I|main|No predefined nexial-setup found
+2019-07-23 17:55:18,322|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-07-23 17:55:18,322|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-07-23 17:55:18,322|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-07-23 17:55:18,322|I|main|generating HTML output for this execution to C:\projects\WebAutomation\output\20190723_175455\execution-output.html
+2019-07-23 17:55:19,106|I|main|generating JUnit XML output for this execution to C:\projects\WebAutomation\output\20190723_175455\junit.xml
+2019-07-23 17:55:19,174|I|main|generated JUnit report for this execution: C:\projects\WebAutomation\output\20190723_175455\junit.xml
+2019-07-23 17:55:19,175|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-07-23 17:55:19,176|I|main|skipped email notification as configured
+2019-07-23 17:55:19,178|I|main|exiting Nexial...
+2019-07-23 17:55:19,180|I|main|shutdown starts...
+2019-07-23 17:55:19,184|I|main|Shutting down 'chrome' webdriver...
+2019-07-23 17:55:27,244|I|main|shutdown ends...
+2019-07-23 17:55:27,244|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 22 sec.
+| » Test Steps....: 5
+| » Passed........: 5
+| » Failed........: 0
+| » Success Rate..: 100.00%
+\----------------------------------------------------------nexial-core dev_0580-
+
+2019-07-23 17:55:27,244|I|main|ALL PASSED!
+2019-07-23 17:55:27,244|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\WebAutomation\output\20190723_175455
+NEXIAL_EXECUTION_HTML: C:\projects\WebAutomation\output\20190723_175455\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\WebAutomation\output\20190723_175455\junit.xml
+NEXIAL_SUCCESS_RATE:   100.00%
+NEXIAL_EXIT_STATUS:    0

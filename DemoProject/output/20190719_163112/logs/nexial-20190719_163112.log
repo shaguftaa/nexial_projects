@@ -1,0 +1,65 @@
+2019-07-19 16:31:12,371|I|Thread-1|(DELAYED) nexial-core dev_0580 starting up...
+2019-07-19 16:31:12,375|I|Thread-1|(DELAYED) validating test script as C:\projects\DemoProject\artifact\script\DemoProject.xlsx
+2019-07-19 16:31:12,376|I|Thread-1|(DELAYED) validating data file as C:\projects\DemoProject\artifact\data\DemoProject.data.xlsx
+2019-07-19 16:31:12,376|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-07-19 16:31:12,376|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-07-19 16:31:12,376|I|Thread-1|(DELAYED) [20190719_163112] [C:\projects\DemoProject\artifact\script\DemoProject.xlsx] resolve RUN ID as 20190719_163112
+2019-07-19 16:31:12,377|I|Thread-1|(DELAYED) [20190719_163112] [C:\projects\DemoProject\artifact\script\DemoProject.xlsx] new thread started
+2019-07-19 16:31:12,377|I|Thread-1|No predefined nexial-setup found
+2019-07-19 16:31:12,466|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-07-19 16:31:12,467|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-07-19 16:31:12,467|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-07-19 16:31:12,492|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-07-19 16:31:13,312|I|Thread-1|[20190719_163112] executing C:\projects\DemoProject\artifact\script\DemoProject.xlsx with 1 iteration(s)
+2019-07-19 16:31:13,317|I|Thread-1|[20190719_163112] create directory C:\projects\DemoProject\output\20190719_163112\captures
+2019-07-19 16:31:13,318|I|Thread-1|[20190719_163112] create directory C:\projects\DemoProject\output\20190719_163112\logs
+2019-07-19 16:31:14,804|E|Thread-1|[20190719_163112] 
+/-TEST FAILED!!-----------------------------------------------------------------
+| Test Output:    C:\projects\DemoProject\output\20190719_163112\DemoProject-plan.001,DemoProject.20190719_163113.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Error:          Specified scenario(s) of C:\projects\DemoProject\artifact\script\DemoProject.xlsx not found: [Scenario(2)]
+2019-07-19 16:31:14,804|I|Thread-1|current script - [ABORT] fail-immediate in effect - test execution will stop now.
+2019-07-19 16:31:15,930|I|Thread-1|[20190719_163112] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\DemoProject\artifact\script\DemoProject.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 3740 ms
+» Iterations:     [1] total 1
+» Test Steps:     0
+» Passed:         0
+» Error(s):       0
+» Iteration 1 of 1: null
+
+
+
+2019-07-19 16:31:16,129|I|main|[20190719_163112] [C:\projects\DemoProject\artifact\script\DemoProject.xlsx] now completed
+2019-07-19 16:31:16,130|I|main|[20190719_163112] all execution thread(s) have terminated
+2019-07-19 16:31:16,131|I|main|[20190719_163112] test run completed in about 4 seconds
+2019-07-19 16:31:16,202|I|main|No predefined nexial-setup found
+2019-07-19 16:31:16,245|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-07-19 16:31:16,246|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-07-19 16:31:16,246|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-07-19 16:31:16,248|I|main|generating HTML output for this execution to C:\projects\DemoProject\output\20190719_163112\execution-output.html
+2019-07-19 16:31:16,928|I|main|generating JUnit XML output for this execution to C:\projects\DemoProject\output\20190719_163112\junit.xml
+2019-07-19 16:31:16,971|I|main|generated JUnit report for this execution: C:\projects\DemoProject\output\20190719_163112\junit.xml
+2019-07-19 16:31:16,971|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-07-19 16:31:16,972|I|main|skipped email notification as configured
+2019-07-19 16:31:16,973|I|main|exiting Nexial...
+2019-07-19 16:31:16,976|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 4 sec.
+| » Test Steps....: 0
+| » Passed........: 0
+| » Failed........: 0
+| » Success Rate..: 0.00%
+\----------------------------------------------------------nexial-core dev_0580-
+
+2019-07-19 16:31:16,977|E|main|failure found; success rate is 0.00%
+2019-07-19 16:31:16,978|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\DemoProject\output\20190719_163112
+NEXIAL_EXECUTION_HTML: C:\projects\DemoProject\output\20190719_163112\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\DemoProject\output\20190719_163112\junit.xml
+NEXIAL_SUCCESS_RATE:   0.00%
+NEXIAL_EXIT_STATUS:    -13

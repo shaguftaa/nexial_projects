@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20190723_142213" timestamp="2019-07-23T14:22:13" time="266.357" tests="50" errors="0">
+  <testsuite id="1" name="FirstAssignment" package="FirstAssignment" hostname="ATMECSINDT-051" timestamp="2019-07-23T14:22:15" time="35.987" tests="50" errors="0">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-051" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="shagufta.nisar" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="FirstAssignment.xlsx" />
+      <property name="Logs" value="C:\projects\FirstAssignment\output\20190723_142213\logs\nexial-20190723_142213.log" />
+      <property name="Data File" value="FirstAssignment.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="JAVA_OPT" value="-Dorg.apache.poi.util.POILogger=org.apache.poi.util.NullLogger" />
+      <property name="runtime args" value="-script C:\projects\FirstAssignment\artifact\script\FirstAssignment.xlsx" />
+    </properties>
+    <testcase id="Activity 1" name="Activity 1" classname="CSV" timestamp="2019-07-23T14:22:17" time="33.905">
+      <system-out>Total : 5
+Passed: 5
+Failed: 0
+Output: C:\projects\FirstAssignment\output\20190723_142213\FirstAssignment.20190723_142215.001.xlsx
+Logs  : C:\projects\FirstAssignment\output\20190723_142213\logs\nexial-20190723_142213.log</system-out>
+    </testcase>
+    <testcase id="Activity 2" name="Activity 2" classname="CSV" timestamp="2019-07-23T14:22:20" time="30.488">
+      <system-out>Total : 2
+Passed: 2
+Failed: 0
+Output: C:\projects\FirstAssignment\output\20190723_142213\FirstAssignment.20190723_142215.001.xlsx
+Logs  : C:\projects\FirstAssignment\output\20190723_142213\logs\nexial-20190723_142213.log</system-out>
+    </testcase>
+    <testcase id="Activity 3" name="Activity 3" classname="CSV" timestamp="2019-07-23T14:22:21" time="29.197">
+      <system-out>Total : 3
+Passed: 3
+Failed: 0
+Output: C:\projects\FirstAssignment\output\20190723_142213\FirstAssignment.20190723_142215.001.xlsx
+Logs  : C:\projects\FirstAssignment\output\20190723_142213\logs\nexial-20190723_142213.log</system-out>
+    </testcase>
+    <testcase id="Activity 4" name="Activity 4" classname="CSV" timestamp="2019-07-23T14:22:23" time="27.222">
+      <system-out>Total : 3
+Passed: 3
+Failed: 0
+Output: C:\projects\FirstAssignment\output\20190723_142213\FirstAssignment.20190723_142215.001.xlsx
+Logs  : C:\projects\FirstAssignment\output\20190723_142213\logs\nexial-20190723_142213.log</system-out>
+    </testcase>
+    <testcase id="Activity 5" name="Activity 5" classname="CSV" timestamp="2019-07-23T14:22:25" time="25.285">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\FirstAssignment\output\20190723_142213\FirstAssignment.20190723_142215.001.xlsx
+Logs  : C:\projects\FirstAssignment\output\20190723_142213\logs\nexial-20190723_142213.log</system-out>
+    </testcase>
+    <testcase id="Activity 6" name="Activity 6" classname="CSV" timestamp="2019-07-23T14:22:26" time="24.449">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\FirstAssignment\output\20190723_142213\FirstAssignment.20190723_142215.001.xlsx
+Logs  : C:\projects\FirstAssignment\output\20190723_142213\logs\nexial-20190723_142213.log</system-out>
+    </testcase>
+    <testcase id="Activity 1" name="Activity 1" classname="XML" timestamp="2019-07-23T14:22:27" time="23.379">
+      <system-out>Total : 2
+Passed: 2
+Failed: 0
+Output: C:\projects\FirstAssignment\output\20190723_142213\FirstAssignment.20190723_142215.001.xlsx
+Logs  : C:\projects\FirstAssignment\output\20190723_142213\logs\nexial-20190723_142213.log</system-out>
+    </testcase>
+    <testcase id="Activity 2" name="Activity 2" classname="XML" timestamp="2019-07-23T14:22:29" time="22.013">
+      <system-out>Total : 2
+Passed: 2
+Failed: 0
+Output: C:\projects\FirstAssignment\output\20190723_142213\FirstAssignment.20190723_142215.001.xlsx
+Logs  : C:\projects\FirstAssignment\output\20190723_142213\logs\nexial-20190723_142213.log</system-out>
+    </testcase>
+    <testcase id="Activity3" name="Activity3" classname="XML" timestamp="2019-07-23T14:22:30" time="20.738">
+      <system-out>Total : 3
+Passed: 3
+Failed: 0
+Output: C:\projects\FirstAssignment\output\20190723_142213\FirstAssignment.20190723_142215.001.xlsx
+Logs  : C:\projects\FirstAssignment\output\20190723_142213\logs\nexial-20190723_142213.log</system-out>
+    </testcase>
+    <testcase id="Activity 4" name="Activity 4" classname="XML" timestamp="2019-07-23T14:22:32" time="18.850">
+      <system-out>Total : 2
+Passed: 2
+Failed: 0
+Output: C:\projects\FirstAssignment\output\20190723_142213\FirstAssignment.20190723_142215.001.xlsx
+Logs  : C:\projects\FirstAssignment\output\20190723_142213\logs\nexial-20190723_142213.log</system-out>
+    </testcase>
+    <testcase id="Activity 5" name="Activity 5" classname="XML" timestamp="2019-07-23T14:22:33" time="17.585">
+      <system-out>Total : 2
+Passed: 2
+Failed: 0
+Output: C:\projects\FirstAssignment\output\20190723_142213\FirstAssignment.20190723_142215.001.xlsx
+Logs  : C:\projects\FirstAssignment\output\20190723_142213\logs\nexial-20190723_142213.log</system-out>
+    </testcase>
+    <testcase id="Activity 1" name="Activity 1" classname="JSON" timestamp="2019-07-23T14:22:35" time="16.089">
+      <system-out>Total : 2
+Passed: 2
+Failed: 0
+Output: C:\projects\FirstAssignment\output\20190723_142213\FirstAssignment.20190723_142215.001.xlsx
+Logs  : C:\projects\FirstAssignment\output\20190723_142213\logs\nexial-20190723_142213.log</system-out>
+    </testcase>
+    <testcase id="Activity 2" name="Activity 2" classname="JSON" timestamp="2019-07-23T14:22:36" time="14.769">
+      <system-out>Total : 10
+Passed: 10
+Failed: 0
+Output: C:\projects\FirstAssignment\output\20190723_142213\FirstAssignment.20190723_142215.001.xlsx
+Logs  : C:\projects\FirstAssignment\output\20190723_142213\logs\nexial-20190723_142213.log</system-out>
+    </testcase>
+    <testcase id="Activity 3" name="Activity 3" classname="JSON" timestamp="2019-07-23T14:22:42" time="8.473">
+      <system-out>Total : 4
+Passed: 4
+Failed: 0
+Output: C:\projects\FirstAssignment\output\20190723_142213\FirstAssignment.20190723_142215.001.xlsx
+Logs  : C:\projects\FirstAssignment\output\20190723_142213\logs\nexial-20190723_142213.log</system-out>
+    </testcase>
+    <testcase id="Activity 4" name="Activity 4" classname="JSON" timestamp="2019-07-23T14:22:45" time="5.659">
+      <system-out>Total : 2
+Passed: 2
+Failed: 0
+Output: C:\projects\FirstAssignment\output\20190723_142213\FirstAssignment.20190723_142215.001.xlsx
+Logs  : C:\projects\FirstAssignment\output\20190723_142213\logs\nexial-20190723_142213.log</system-out>
+    </testcase>
+    <testcase id="Activity 5" name="Activity 5" classname="JSON" timestamp="2019-07-23T14:22:46" time="4.423">
+      <system-out>Total : 6
+Passed: 6
+Failed: 0
+Output: C:\projects\FirstAssignment\output\20190723_142213\FirstAssignment.20190723_142215.001.xlsx
+Logs  : C:\projects\FirstAssignment\output\20190723_142213\logs\nexial-20190723_142213.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

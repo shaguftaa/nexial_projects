@@ -1,0 +1,12 @@
+{
+  "sql": "Select * from link_desc where name=\"Sundar pichai\"",
+  "startTime": 1564463716994,
+  "elapsedTime": 4,
+  "rowCount": 2,
+  "columns": [
+    "name",
+    "url"
+  ],
+  "rolledBack": false,
+  "sqlType": "SELECT"
+}

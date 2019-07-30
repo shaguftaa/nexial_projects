@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20190726_104703" timestamp="2019-07-26T10:47:03" time="57.057" tests="1" errors="0">
+  <testsuite id="1" name="DatabaseAutomation" package="DatabaseAutomation" hostname="ATMECSINDT-051" timestamp="2019-07-26T10:47:05" time="26.802" tests="1" errors="0">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-051" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="shagufta.nisar" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="DatabaseAutomation.xlsx" />
+      <property name="Logs" value="C:\projects\DatabaseAutomation\output\20190726_104703\logs\nexial-20190726_104703.log" />
+      <property name="Data File" value="DatabaseAutomation.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="JAVA_OPT" value="-Dorg.apache.poi.util.POILogger=org.apache.poi.util.NullLogger" />
+      <property name="runtime args" value="-script C:\projects\DatabaseAutomation\artifact\script\DatabaseAutomation.xlsx" />
+    </properties>
+    <testcase id="Activity 1" name="Activity 1" classname="Scenario" timestamp="2019-07-26T10:47:30" time="1.376">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\DatabaseAutomation\output\20190726_104703\DatabaseAutomation.20190726_104705.001.xlsx
+Logs  : C:\projects\DatabaseAutomation\output\20190726_104703\logs\nexial-20190726_104703.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20190719_163112" timestamp="2019-07-19T16:31:12" time="4.008" tests="0" errors="0">
+  <testsuite id="1001" name="1 DemoProject" package="1 DemoProject" hostname="ATMECSINDT-051" timestamp="2019-07-19T16:31:13" time="1.491" tests="0" errors="0">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-051" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="shagufta.nisar" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="DemoProject.xlsx" />
+    </properties>
+  </testsuite>
+</testsuites>

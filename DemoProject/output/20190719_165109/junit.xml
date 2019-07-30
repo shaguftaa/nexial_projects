@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20190719_165109" timestamp="2019-07-19T16:51:09" time="12.013" tests="7" errors="0">
+  <testsuite id="1" name="DemoProject" package="DemoProject" hostname="ATMECSINDT-051" timestamp="2019-07-19T16:51:10" time="6.966" tests="7" errors="0">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-051" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="shagufta.nisar" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="DemoProject.xlsx" />
+      <property name="Logs" value="C:\projects\DemoProject\output\20190719_165109\logs\nexial-20190719_165109.log" />
+      <property name="Data File" value="DemoProject.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="JAVA_OPT" value="-Dorg.apache.poi.util.POILogger=org.apache.poi.util.NullLogger" />
+      <property name="runtime args" value="-script C:\projects\DemoProject\artifact\script\DemoProject.xlsx" />
+    </properties>
+    <testcase id="Activity 1" name="Activity 1" classname="Scenario (2)" timestamp="2019-07-19T16:51:12" time="5.190">
+      <system-out>Total : 3
+Passed: 3
+Failed: 0
+Output: C:\projects\DemoProject\output\20190719_165109\DemoProject.20190719_165110.001.xlsx
+Logs  : C:\projects\DemoProject\output\20190719_165109\logs\nexial-20190719_165109.log</system-out>
+    </testcase>
+    <testcase id="Activity 1" name="Activity 1" classname="Scenario" timestamp="2019-07-19T16:51:14" time="2.992">
+      <system-out>Total : 3
+Passed: 3
+Failed: 0
+Output: C:\projects\DemoProject\output\20190719_165109\DemoProject.20190719_165110.001.xlsx
+Logs  : C:\projects\DemoProject\output\20190719_165109\logs\nexial-20190719_165109.log</system-out>
+    </testcase>
+    <testcase id="Activity 2" name="Activity 2" classname="Scenario" timestamp="2019-07-19T16:51:16" time="0.925">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\DemoProject\output\20190719_165109\DemoProject.20190719_165110.001.xlsx
+Logs  : C:\projects\DemoProject\output\20190719_165109\logs\nexial-20190719_165109.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

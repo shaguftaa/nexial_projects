@@ -1,0 +1,82 @@
+2019-07-26 14:41:01,374|I|Thread-1|(DELAYED) nexial-core dev_0580 starting up...
+2019-07-26 14:41:01,379|I|Thread-1|(DELAYED) data file resolved as C:\Users\SHAGUF~1.NIS\AppData\Local\Temp\mgtMa\DatabaseAutomation.data.xlsx
+2019-07-26 14:41:01,379|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-07-26 14:41:01,379|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-07-26 14:41:01,379|I|Thread-1|(DELAYED) [20190726_144101] [C:\projects\DatabaseAutomation\artifact\script\DatabaseAutomation.xlsx] resolve RUN ID as 20190726_144101
+2019-07-26 14:41:01,379|I|Thread-1|(DELAYED) [20190726_144101] [C:\projects\DatabaseAutomation\artifact\script\DatabaseAutomation.xlsx] new thread started
+2019-07-26 14:41:01,379|I|Thread-1|No predefined nexial-setup found
+2019-07-26 14:41:01,473|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-07-26 14:41:01,473|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-07-26 14:41:01,474|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-07-26 14:41:01,503|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-07-26 14:41:02,271|I|Thread-1|[20190726_144101] executing C:\projects\DatabaseAutomation\artifact\script\DatabaseAutomation.xlsx with 1 iteration(s)
+2019-07-26 14:41:02,278|I|Thread-1|[20190726_144101] create directory C:\projects\DatabaseAutomation\output\20190726_144101\captures
+2019-07-26 14:41:02,286|I|Thread-1|[20190726_144101] create directory C:\projects\DatabaseAutomation\output\20190726_144101\logs
+2019-07-26 14:41:02,983|I|Thread-1|[20190726_144101] merging test data to tmp file C:\projects\DatabaseAutomation\output\20190726_144101\DatabaseAutomation.20190726_144102.001.xlsx
+2019-07-26 14:41:02,985|I|Thread-1|refetching data from C:\projects\DatabaseAutomation\artifact\data\DatabaseAutomation.data.xlsx
+2019-07-26 14:41:03,368|I|Thread-1|[20190726_144101] test script and test data merged to C:\projects\DatabaseAutomation\output\20190726_144101\DatabaseAutomation.20190726_144102.001.xlsx
+2019-07-26 14:41:04,084|I|Thread-1|STARTS
+2019-07-26 14:41:04,106|I|Thread-1|DatabaseAutomation.20190726_144102.001 - executing iteration #1 of 1; Iteration Id 1
+2019-07-26 14:41:04,114|I|Thread-1|DatabaseAutomation.20190726_144102.001|Scenario - executing test scenario
+2019-07-26 14:41:04,116|I|Thread-1|DatabaseAutomation.20190726_144102.001|Scenario|Activity 1 - executing activity
+2019-07-26 14:41:04,720|I|Thread-1|DatabaseAutomation.20190726_144102.001|Scenario|Activity 1|#  5|rdbms.runSQL(var,db,sql) - executing runSQL(var,db,sql)(result, db1, Select datetime(current_timestamp,'localtime') AS RIGHT_NOW)
+2019-07-26 14:41:04,971|I|Thread-1|DatabaseAutomation.20190726_144102.001|Scenario|Activity 1|#  5|rdbms.runSQL(var,db,sql) - new connection established for 'db1'
+2019-07-26 14:41:05,237|E|Thread-1|DatabaseAutomation.20190726_144102.001|Scenario|Activity 1|#  5|rdbms.runSQL(var,db,sql) - FAIL Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Cannot create JDBC driver of class 'com.mysql.cj.jdbc.Driver' for connect URL 'jdbc:mysql:C:\projects\DatabaseAutomation\artifact\data\student.db'
+2019-07-26 14:41:05,843|I|Thread-1|DatabaseAutomation.20190726_144102.001|Scenario|Activity 1|#  6|base.verbose(text) - executing verbose(text)(${result})
+2019-07-26 14:41:05,846|I|Thread-1|DatabaseAutomation.20190726_144102.001|Scenario|Activity 1|#  6|base.verbose(text) - 
+2019-07-26 14:41:05,851|I|Thread-1|DatabaseAutomation.20190726_144102.001|Scenario|Activity 1|#  6|base.verbose(text) - PASS 
+2019-07-26 14:41:05,943|I|Thread-1|[DatabaseAutomation.20190726_144102.001|Scenario] saving test scenario
+2019-07-26 14:41:06,077|I|Thread-1|[20190726_144101] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\DatabaseAutomation\output\20190726_144101\DatabaseAutomation.20190726_144102.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 1964 ms
+» Test Steps:     2
+» Error(s):       1
+
+
+
+2019-07-26 14:41:07,248|I|Thread-1|[20190726_144101] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\DatabaseAutomation\artifact\script\DatabaseAutomation.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 6068 ms
+» Iterations:     [1] total 1
+» Test Steps:     2
+» Passed:         1
+» Error(s):       1
+» Iteration 1 of 1: C:\projects\DatabaseAutomation\output\20190726_144101\DatabaseAutomation.20190726_144102.001.xlsx
+
+
+
+2019-07-26 14:41:08,137|I|main|[20190726_144101] [C:\projects\DatabaseAutomation\artifact\script\DatabaseAutomation.xlsx] now completed
+2019-07-26 14:41:08,139|I|main|[20190726_144101] all execution thread(s) have terminated
+2019-07-26 14:41:08,141|I|main|[20190726_144101] test run completed in about 7 seconds
+2019-07-26 14:41:08,259|I|main|No predefined nexial-setup found
+2019-07-26 14:41:08,293|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-07-26 14:41:08,294|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-07-26 14:41:08,294|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-07-26 14:41:08,296|I|main|generating HTML output for this execution to C:\projects\DatabaseAutomation\output\20190726_144101\execution-output.html
+2019-07-26 14:41:09,068|I|main|generating JUnit XML output for this execution to C:\projects\DatabaseAutomation\output\20190726_144101\junit.xml
+2019-07-26 14:41:09,122|I|main|generated JUnit report for this execution: C:\projects\DatabaseAutomation\output\20190726_144101\junit.xml
+2019-07-26 14:41:09,124|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-07-26 14:41:09,125|I|main|skipped email notification as configured
+2019-07-26 14:41:09,127|I|main|exiting Nexial...
+2019-07-26 14:41:09,129|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 7 sec.
+| » Test Steps....: 2
+| » Passed........: 1
+| » Failed........: 1
+| » Success Rate..: 50.00%
+\----------------------------------------------------------nexial-core dev_0580-
+
+2019-07-26 14:41:09,130|E|main|failure found; success rate is 50.00%
+2019-07-26 14:41:09,131|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\DatabaseAutomation\output\20190726_144101
+NEXIAL_EXECUTION_HTML: C:\projects\DatabaseAutomation\output\20190726_144101\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\DatabaseAutomation\output\20190726_144101\junit.xml
+NEXIAL_SUCCESS_RATE:   50.00%
+NEXIAL_EXIT_STATUS:    -13

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20190726_145353" timestamp="2019-07-26T14:53:53" time="7.101" tests="2" errors="1">
+  <testsuite id="1" name="DatabaseAutomation" package="DatabaseAutomation" hostname="ATMECSINDT-051" timestamp="2019-07-26T14:53:55" time="4.281" tests="2" errors="1">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-051" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="shagufta.nisar" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="DatabaseAutomation.xlsx" />
+      <property name="Logs" value="C:\projects\DatabaseAutomation\output\20190726_145353\logs\nexial-20190726_145353.log" />
+      <property name="Data File" value="DatabaseAutomation.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="JAVA_OPT" value="-Dorg.apache.poi.util.POILogger=org.apache.poi.util.NullLogger" />
+      <property name="runtime args" value="-script C:\projects\DatabaseAutomation\artifact\script\DatabaseAutomation.xlsx" />
+    </properties>
+    <testcase id="Activity 1" name="Activity 1" classname="Scenario" timestamp="2019-07-26T14:53:56" time="2.688">
+      <failure type="failure found in test activity" message="1 of 2 FAILED. Check C:\projects\DatabaseAutomation\output\20190726_145353\DatabaseAutomation.20190726_145355.001.xlsx for execution result, C:\projects\DatabaseAutomation\output\20190726_145353\logs\nexial-20190726_145353.log for execution logs" />
+      <system-out>Total : 2
+Passed: 1
+Failed: 1
+Output: C:\projects\DatabaseAutomation\output\20190726_145353\DatabaseAutomation.20190726_145355.001.xlsx
+Logs  : C:\projects\DatabaseAutomation\output\20190726_145353\logs\nexial-20190726_145353.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

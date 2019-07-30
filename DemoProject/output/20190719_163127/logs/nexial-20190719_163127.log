@@ -1,0 +1,93 @@
+2019-07-19 16:31:27,420|I|Thread-1|(DELAYED) nexial-core dev_0580 starting up...
+2019-07-19 16:31:27,424|I|Thread-1|(DELAYED) data file resolved as C:\Users\SHAGUF~1.NIS\AppData\Local\Temp\UobTF\DemoProject.data.xlsx
+2019-07-19 16:31:27,424|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-07-19 16:31:27,424|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-07-19 16:31:27,424|I|Thread-1|(DELAYED) [20190719_163127] [C:\projects\DemoProject\artifact\script\DemoProject.xlsx] resolve RUN ID as 20190719_163127
+2019-07-19 16:31:27,424|I|Thread-1|(DELAYED) [20190719_163127] [C:\projects\DemoProject\artifact\script\DemoProject.xlsx] new thread started
+2019-07-19 16:31:27,425|I|Thread-1|No predefined nexial-setup found
+2019-07-19 16:31:27,528|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-07-19 16:31:27,528|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-07-19 16:31:27,529|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-07-19 16:31:27,559|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-07-19 16:31:28,427|I|Thread-1|[20190719_163127] executing C:\projects\DemoProject\artifact\script\DemoProject.xlsx with 1 iteration(s)
+2019-07-19 16:31:28,435|I|Thread-1|[20190719_163127] create directory C:\projects\DemoProject\output\20190719_163127\captures
+2019-07-19 16:31:28,437|I|Thread-1|[20190719_163127] create directory C:\projects\DemoProject\output\20190719_163127\logs
+2019-07-19 16:31:29,217|I|Thread-1|[20190719_163127] merging test data to tmp file C:\projects\DemoProject\output\20190719_163127\DemoProject.20190719_163128.001.xlsx
+2019-07-19 16:31:29,218|I|Thread-1|refetching data from C:\projects\DemoProject\artifact\data\DemoProject.data.xlsx
+2019-07-19 16:31:29,533|I|Thread-1|[20190719_163127] test script and test data merged to C:\projects\DemoProject\output\20190719_163127\DemoProject.20190719_163128.001.xlsx
+2019-07-19 16:31:30,446|I|Thread-1|STARTS
+2019-07-19 16:31:30,471|I|Thread-1|DemoProject.20190719_163128.001 - executing iteration #1 of 1; Iteration Id 1
+2019-07-19 16:31:30,478|I|Thread-1|DemoProject.20190719_163128.001|Scenario (2) - executing test scenario
+2019-07-19 16:31:30,480|I|Thread-1|DemoProject.20190719_163128.001|Scenario (2)|Activity 1 - executing activity
+2019-07-19 16:31:31,084|I|Thread-1|DemoProject.20190719_163128.001|Scenario (2)|Activity 1|#  5|base.verbose(text) - executing verbose(text)($(syspath|project|fullpath)/artifact/data/abc.txt)
+2019-07-19 16:31:31,093|I|Thread-1|DemoProject.20190719_163128.001|Scenario (2)|Activity 1|#  5|base.verbose(text) - C:\projects\DemoProject\artifact\data\abc.txt
+2019-07-19 16:31:31,160|I|Thread-1|DemoProject.20190719_163128.001|Scenario (2)|Activity 1|#  5|base.verbose(text) - PASS 
+2019-07-19 16:31:31,365|I|Thread-1|[DemoProject.20190719_163128.001|Scenario (2)] saving test scenario
+2019-07-19 16:31:31,456|I|Thread-1|DemoProject.20190719_163128.001|Scenario - executing test scenario
+2019-07-19 16:31:31,458|I|Thread-1|DemoProject.20190719_163128.001|Scenario|Activity 1 - executing activity
+2019-07-19 16:31:32,061|I|Thread-1|DemoProject.20190719_163128.001|Scenario|Activity 1|#  5|base.save(var,value) - executing save(var,value)(nexial.textDelim, ,)
+2019-07-19 16:31:32,081|I|Thread-1|DemoProject.20190719_163128.001|Scenario|Activity 1|#  5|base.save(var,value) - PASS stored ',' as ${nexial.textDelim}
+2019-07-19 16:31:32,692|I|Thread-1|DemoProject.20190719_163128.001|Scenario|Activity 1|#  6|base.save(var,value) - executing save(var,value)(myList, 7,4)
+2019-07-19 16:31:32,698|I|Thread-1|DemoProject.20190719_163128.001|Scenario|Activity 1|#  6|base.save(var,value) - PASS stored '7,4' as ${myList}
+2019-07-19 16:31:33,301|I|Thread-1|DemoProject.20190719_163128.001|Scenario|Activity 1|#  7|base.verbose(text) - executing verbose(text)([LIST(${myList}) => sum])
+2019-07-19 16:31:33,349|I|Thread-1|DemoProject.20190719_163128.001|Scenario|Activity 1|#  7|base.verbose(text) - 11
+2019-07-19 16:31:33,498|I|Thread-1|DemoProject.20190719_163128.001|Scenario|Activity 1|#  7|base.verbose(text) - PASS 
+2019-07-19 16:31:33,500|I|Thread-1|DemoProject.20190719_163128.001|Scenario|Activity 2 - executing activity
+2019-07-19 16:31:34,101|I|Thread-1|DemoProject.20190719_163128.001|Scenario|Activity 2|#  8|base.verbose(text) - executing verbose(text)(Shubham pagal)
+2019-07-19 16:31:34,106|I|Thread-1|DemoProject.20190719_163128.001|Scenario|Activity 2|#  8|base.verbose(text) - Shubham pagal
+2019-07-19 16:31:34,112|I|Thread-1|DemoProject.20190719_163128.001|Scenario|Activity 2|#  8|base.verbose(text) - PASS 
+2019-07-19 16:31:34,209|I|Thread-1|[DemoProject.20190719_163128.001|Scenario] saving test scenario
+2019-07-19 16:31:34,294|I|Thread-1|[20190719_163127] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\DemoProject\output\20190719_163127\DemoProject.20190719_163128.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 3819 ms
+» Test Steps:     5
+» Error(s):       0
+
+
+
+2019-07-19 16:31:40,150|I|Thread-1|[20190719_163127] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\DemoProject\artifact\script\DemoProject.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 12934 ms
+» Iterations:     [1] total 1
+» Test Steps:     5
+» Passed:         5
+» Error(s):       0
+» Iteration 1 of 1: C:\projects\DemoProject\output\20190719_163127\DemoProject.20190719_163128.001.xlsx
+
+
+
+2019-07-19 16:31:40,160|I|main|[20190719_163127] [C:\projects\DemoProject\artifact\script\DemoProject.xlsx] now completed
+2019-07-19 16:31:40,160|I|main|[20190719_163127] all execution thread(s) have terminated
+2019-07-19 16:31:40,161|I|main|[20190719_163127] test run completed in about 13 seconds
+2019-07-19 16:31:40,246|I|main|No predefined nexial-setup found
+2019-07-19 16:31:40,304|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-07-19 16:31:40,305|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-07-19 16:31:40,306|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-07-19 16:31:40,308|I|main|generating HTML output for this execution to C:\projects\DemoProject\output\20190719_163127\execution-output.html
+2019-07-19 16:31:41,056|I|main|generating JUnit XML output for this execution to C:\projects\DemoProject\output\20190719_163127\junit.xml
+2019-07-19 16:31:41,110|I|main|generated JUnit report for this execution: C:\projects\DemoProject\output\20190719_163127\junit.xml
+2019-07-19 16:31:41,126|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-07-19 16:31:41,128|I|main|skipped email notification as configured
+2019-07-19 16:31:41,130|I|main|exiting Nexial...
+2019-07-19 16:31:41,132|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 13 sec.
+| » Test Steps....: 5
+| » Passed........: 5
+| » Failed........: 0
+| » Success Rate..: 100.00%
+\----------------------------------------------------------nexial-core dev_0580-
+
+2019-07-19 16:31:41,133|I|main|ALL PASSED!
+2019-07-19 16:31:41,134|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\DemoProject\output\20190719_163127
+NEXIAL_EXECUTION_HTML: C:\projects\DemoProject\output\20190719_163127\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\DemoProject\output\20190719_163127\junit.xml
+NEXIAL_SUCCESS_RATE:   100.00%
+NEXIAL_EXIT_STATUS:    0

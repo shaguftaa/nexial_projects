@@ -1,0 +1,1 @@
+ERROR: Error occurred when executing 'INSERT INTO DEPARTMENT VALUES (6, 'CSE' );': [SQLITE_CONSTRAINT]  Abort due to constraint violation (UNIQUE constraint failed: DEPARTMENT.ID)

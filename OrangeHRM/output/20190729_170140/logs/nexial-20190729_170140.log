@@ -1,0 +1,214 @@
+2019-07-29 17:01:41,010|I|Thread-1|(DELAYED) nexial-core dev_0580 starting up...
+2019-07-29 17:01:41,014|I|Thread-1|(DELAYED) data file resolved as C:\Users\SHAGUF~1.NIS\AppData\Local\Temp\VeXbF\OrangeHRM.data.xlsx
+2019-07-29 17:01:41,014|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-07-29 17:01:41,014|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-07-29 17:01:41,014|I|Thread-1|(DELAYED) [20190729_170140] [C:\projects\OrangeHRM\artifact\script\OrangeHRM.xlsx] resolve RUN ID as 20190729_170140
+2019-07-29 17:01:41,014|I|Thread-1|(DELAYED) [20190729_170140] [C:\projects\OrangeHRM\artifact\script\OrangeHRM.xlsx] new thread started
+2019-07-29 17:01:41,015|I|Thread-1|No predefined nexial-setup found
+2019-07-29 17:01:41,102|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-07-29 17:01:41,102|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-07-29 17:01:41,103|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-07-29 17:01:41,131|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-07-29 17:01:41,926|I|Thread-1|[20190729_170140] executing C:\projects\OrangeHRM\artifact\script\OrangeHRM.xlsx with 1 iteration(s)
+2019-07-29 17:01:41,941|I|Thread-1|[20190729_170140] create directory C:\projects\OrangeHRM\output\20190729_170140\captures
+2019-07-29 17:01:41,943|I|Thread-1|[20190729_170140] create directory C:\projects\OrangeHRM\output\20190729_170140\logs
+2019-07-29 17:01:42,710|I|Thread-1|[20190729_170140] merging test data to tmp file C:\projects\OrangeHRM\output\20190729_170140\OrangeHRM.20190729_170141.001.xlsx
+2019-07-29 17:01:42,711|I|Thread-1|refetching data from C:\projects\OrangeHRM\artifact\data\OrangeHRM.data.xlsx
+2019-07-29 17:01:43,023|I|Thread-1|[20190729_170140] test script and test data merged to C:\projects\OrangeHRM\output\20190729_170140\OrangeHRM.20190729_170141.001.xlsx
+2019-07-29 17:01:43,855|I|Thread-1|STARTS
+2019-07-29 17:01:43,886|I|Thread-1|OrangeHRM.20190729_170141.001 - executing iteration #1 of 1; Iteration Id 1
+2019-07-29 17:01:43,893|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario - executing test scenario
+2019-07-29 17:01:43,895|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1 - executing activity
+2019-07-29 17:01:44,498|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|#  5|web.open(url) - executing open(url)(https://opensource-demo.orangehrmlive.com/)
+2019-07-29 17:01:44,502|I|Thread-1|No valid instance of webdriver, initializing...
+2019-07-29 17:01:44,504|I|Thread-1|init chrome
+2019-07-29 17:01:50,502|I|Thread-1|browser initialization completed for 'chrome'
+2019-07-29 17:01:50,525|I|Thread-1|setting browser polling wait time to 800 ms
+2019-07-29 17:01:50,544|I|Thread-1|setting browser page load timeout to 10000 ms
+2019-07-29 17:01:55,089|I|Thread-1|current browser window handle:CDwindow-AC9E1C600B9FA97FD2F52D44132988A6
+2019-07-29 17:01:55,133|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|#  5|web.open(url) - PASS opened URL https://opensource-demo.orangehrmlive.com/
+2019-07-29 17:01:55,738|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|#  6|web.type(locator,value) - executing type(locator,value)(//*[@id="txtUsername"], Admin)
+2019-07-29 17:01:56,055|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|#  6|web.type(locator,value) - PASS typed text at '//*[@id="txtUsername"]'
+2019-07-29 17:01:56,660|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|#  7|web.type(locator,value) - executing type(locator,value)(//*[@id="txtPassword"], admin123)
+2019-07-29 17:01:56,887|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|#  7|web.type(locator,value) - PASS typed text at '//*[@id="txtPassword"]'
+2019-07-29 17:01:57,491|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|#  8|web.click(locator) - executing click(locator)(//*[@id="btnLogin"])
+2019-07-29 17:01:57,538|I|Thread-1|clicking '//*[@id="btnLogin"]'...
+2019-07-29 17:01:57,576|I|Thread-1|click target via JS, @id=btnLogin
+2019-07-29 17:02:01,473|I|Thread-1|clicked -> true
+2019-07-29 17:02:01,474|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|#  8|web.click(locator) - PASS click via JS event
+2019-07-29 17:02:02,076|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|#  9|web.click(locator) - executing click(locator)(//*[@id="menu_pim_viewPimModule"]/b)
+2019-07-29 17:02:02,115|I|Thread-1|clicking '//*[@id="menu_pim_viewPimModule"]/b'...
+2019-07-29 17:02:02,145|I|Thread-1|click target via JS, @id=
+2019-07-29 17:02:03,468|I|Thread-1|clicked -> true
+2019-07-29 17:02:03,469|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|#  9|web.click(locator) - PASS click via JS event
+2019-07-29 17:02:04,072|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 10|web.click(locator) - executing click(locator)(//*[@id="btnAdd"])
+2019-07-29 17:02:04,111|I|Thread-1|clicking '//*[@id="btnAdd"]'...
+2019-07-29 17:02:04,142|I|Thread-1|click target via JS, @id=btnAdd
+2019-07-29 17:02:04,834|I|Thread-1|clicked -> true
+2019-07-29 17:02:04,835|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 10|web.click(locator) - PASS click via JS event
+2019-07-29 17:02:05,437|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 11|web.type(locator,value) - executing type(locator,value)(//*[@id="firstName"], Shagufta)
+2019-07-29 17:02:05,719|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 11|web.type(locator,value) - PASS typed text at '//*[@id="firstName"]'
+2019-07-29 17:02:06,324|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 12|web.type(locator,value) - executing type(locator,value)(//*[@id="lastName"], Nisar)
+2019-07-29 17:02:06,547|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 12|web.type(locator,value) - PASS typed text at '//*[@id="lastName"]'
+2019-07-29 17:02:07,151|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 13|web.type(locator,value) - executing type(locator,value)(//*[@id="employeeId"], 1060)
+2019-07-29 17:02:07,439|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 13|web.type(locator,value) - PASS typed text at '//*[@id="employeeId"]'
+2019-07-29 17:02:08,043|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 14|web.click(locator) - executing click(locator)(//*[@id="chkLogin"])
+2019-07-29 17:02:08,081|I|Thread-1|clicking '//*[@id="chkLogin"]'...
+2019-07-29 17:02:08,109|I|Thread-1|click target via JS, @id=chkLogin
+2019-07-29 17:02:08,151|I|Thread-1|clicked -> true
+2019-07-29 17:02:08,152|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 14|web.click(locator) - PASS click via JS event
+2019-07-29 17:02:08,754|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 15|web.type(locator,value) - executing type(locator,value)(//*[@id="user_name"], shagufta.nisar)
+2019-07-29 17:02:09,031|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 15|web.type(locator,value) - PASS typed text at '//*[@id="user_name"]'
+2019-07-29 17:02:09,636|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 16|web.type(locator,value) - executing type(locator,value)(//*[@id="user_password"], Shagufta)
+2019-07-29 17:02:09,924|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 16|web.type(locator,value) - PASS typed text at '//*[@id="user_password"]'
+2019-07-29 17:02:10,527|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 17|web.type(locator,value) - executing type(locator,value)(//*[@id="re_password"], Shagufta)
+2019-07-29 17:02:10,775|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 17|web.type(locator,value) - PASS typed text at '//*[@id="re_password"]'
+2019-07-29 17:02:11,379|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 18|web.click(locator) - executing click(locator)(//*[@id="btnSave"])
+2019-07-29 17:02:11,417|I|Thread-1|clicking '//*[@id="btnSave"]'...
+2019-07-29 17:02:11,442|I|Thread-1|click target via JS, @id=btnSave
+2019-07-29 17:02:12,620|I|Thread-1|clicked -> true
+2019-07-29 17:02:12,621|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 18|web.click(locator) - PASS click via JS event
+2019-07-29 17:02:13,225|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 19|web.click(locator) - executing click(locator)(//*[@id="menu_admin_viewAdminModule"]/b)
+2019-07-29 17:02:13,304|I|Thread-1|clicking '//*[@id="menu_admin_viewAdminModule"]/b'...
+2019-07-29 17:02:13,338|I|Thread-1|click target via JS, @id=
+2019-07-29 17:02:14,658|I|Thread-1|clicked -> true
+2019-07-29 17:02:14,659|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 19|web.click(locator) - PASS click via JS event
+2019-07-29 17:02:15,261|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 20|web.type(locator,value) - executing type(locator,value)(//*[@id="searchSystemUser_userName"], shagufta.nisar)
+2019-07-29 17:02:15,512|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 20|web.type(locator,value) - PASS typed text at '//*[@id="searchSystemUser_userName"]'
+2019-07-29 17:02:16,115|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 21|web.type(locator,value) - executing type(locator,value)(//*[@id="searchSystemUser_employeeName_empName"], Shagufta Nisar)
+2019-07-29 17:02:16,403|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 21|web.type(locator,value) - PASS typed text at '//*[@id="searchSystemUser_employeeName_empName"]'
+2019-07-29 17:02:17,006|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 22|web.click(locator) - executing click(locator)(//*[@id="searchBtn"])
+2019-07-29 17:02:17,081|I|Thread-1|clicking '//*[@id="searchBtn"]'...
+2019-07-29 17:02:17,103|I|Thread-1|click target via JS, @id=searchBtn
+2019-07-29 17:02:17,557|I|Thread-1|clicked -> true
+2019-07-29 17:02:17,558|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 22|web.click(locator) - PASS click via JS event
+2019-07-29 17:02:18,159|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 23|web.click(locator) - executing click(locator)(//*[@id="menu_leave_viewLeaveModule"]/b)
+2019-07-29 17:02:18,232|I|Thread-1|clicking '//*[@id="menu_leave_viewLeaveModule"]/b'...
+2019-07-29 17:02:18,263|I|Thread-1|click target via JS, @id=
+2019-07-29 17:02:19,912|I|Thread-1|clicked -> true
+2019-07-29 17:02:19,914|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 23|web.click(locator) - PASS click via JS event
+2019-07-29 17:02:20,518|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 24|web.click(locator) - executing click(locator)(//*[@id="menu_leave_assignLeave"])
+2019-07-29 17:02:20,593|I|Thread-1|clicking '//*[@id="menu_leave_assignLeave"]'...
+2019-07-29 17:02:20,617|I|Thread-1|click target via JS, @id=menu_leave_assignLeave
+2019-07-29 17:02:21,393|I|Thread-1|clicked -> true
+2019-07-29 17:02:21,394|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 24|web.click(locator) - PASS click via JS event
+2019-07-29 17:02:21,996|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 25|web.type(locator,value) - executing type(locator,value)(//*[@id="assignleave_txtEmployee_empName"], Shagufta Nisar)
+2019-07-29 17:02:22,353|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 25|web.type(locator,value) - PASS typed text at '//*[@id="assignleave_txtEmployee_empName"]'
+2019-07-29 17:02:22,956|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 26|web.select(locator,text) - executing select(locator,text)(//*[@id="assignleave_txtLeaveType"], Vacation US)
+2019-07-29 17:02:23,176|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 26|web.select(locator,text) - PASS selected 'Vacation US' from '//*[@id="assignleave_txtLeaveType"]'
+2019-07-29 17:02:23,780|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 27|web.click(locator) - executing click(locator)(//*[@id="frmLeaveApply"]/fieldset/ol/li[4]/img)
+2019-07-29 17:02:23,859|I|Thread-1|clicking '//*[@id="frmLeaveApply"]/fieldset/ol/li[4]/img'...
+2019-07-29 17:02:23,882|I|Thread-1|click target via JS, @id=
+2019-07-29 17:02:23,953|I|Thread-1|clicked -> true
+2019-07-29 17:02:23,954|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 27|web.click(locator) - PASS click via JS event
+2019-07-29 17:02:24,556|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 28|web.click(locator) - executing click(locator)(//*[@id="ui-datepicker-div"]/table/tbody/tr[5]/td[2]/a)
+2019-07-29 17:02:24,635|I|Thread-1|clicking '//*[@id="ui-datepicker-div"]/table/tbody/tr[5]/td[2]/a'...
+2019-07-29 17:02:24,669|I|Thread-1|click target via JS, @id=
+2019-07-29 17:02:24,706|I|Thread-1|clicked -> true
+2019-07-29 17:02:24,707|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 28|web.click(locator) - PASS click via JS event
+2019-07-29 17:02:25,308|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 29|web.click(locator) - executing click(locator)(//*[@id="frmLeaveApply"]/fieldset/ol/li[5]/img)
+2019-07-29 17:02:25,388|I|Thread-1|clicking '//*[@id="frmLeaveApply"]/fieldset/ol/li[5]/img'...
+2019-07-29 17:02:25,412|I|Thread-1|click target via JS, @id=
+2019-07-29 17:02:25,463|I|Thread-1|clicked -> true
+2019-07-29 17:02:25,464|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 29|web.click(locator) - PASS click via JS event
+2019-07-29 17:02:26,065|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 30|web.click(locator) - executing click(locator)(//*[@id="ui-datepicker-div"]/table/tbody/tr[5]/td[3]/a)
+2019-07-29 17:02:26,152|I|Thread-1|clicking '//*[@id="ui-datepicker-div"]/table/tbody/tr[5]/td[3]/a'...
+2019-07-29 17:02:26,183|I|Thread-1|click target via JS, @id=
+2019-07-29 17:02:26,228|I|Thread-1|clicked -> true
+2019-07-29 17:02:26,229|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 30|web.click(locator) - PASS click via JS event
+2019-07-29 17:02:26,831|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 31|web.type(locator,value) - executing type(locator,value)(//*[@id="assignleave_txtComment"], Sick Leave)
+2019-07-29 17:02:27,100|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 31|web.type(locator,value) - PASS typed text at '//*[@id="assignleave_txtComment"]'
+2019-07-29 17:02:27,704|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 32|web.click(locator) - executing click(locator)(//*[@id="assignBtn"])
+2019-07-29 17:02:27,764|I|Thread-1|clicking '//*[@id="assignBtn"]'...
+2019-07-29 17:02:27,789|I|Thread-1|click target via JS, @id=assignBtn
+2019-07-29 17:02:27,832|I|Thread-1|clicked -> true
+2019-07-29 17:02:27,833|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 32|web.click(locator) - PASS click via JS event
+2019-07-29 17:02:28,435|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 33|web.click(locator) - executing click(locator)(//*[@id="confirmOkButton"])
+2019-07-29 17:02:28,508|I|Thread-1|clicking '//*[@id="confirmOkButton"]'...
+2019-07-29 17:02:28,532|I|Thread-1|click target via JS, @id=confirmOkButton
+2019-07-29 17:02:29,011|I|Thread-1|clicked -> true
+2019-07-29 17:02:29,012|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 33|web.click(locator) - PASS click via JS event
+2019-07-29 17:02:29,614|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 34|web.click(locator) - executing click(locator)(//*[@id="menu_admin_viewAdminModule"])
+2019-07-29 17:02:29,691|I|Thread-1|clicking '//*[@id="menu_admin_viewAdminModule"]'...
+2019-07-29 17:02:29,720|I|Thread-1|click target via JS, @id=menu_admin_viewAdminModule
+2019-07-29 17:02:30,491|I|Thread-1|clicked -> true
+2019-07-29 17:02:30,492|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 34|web.click(locator) - PASS click via JS event
+2019-07-29 17:02:31,094|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 35|web.click(locator) - executing click(locator)(//*[@id="menu_admin_viewAdminModule"])
+2019-07-29 17:02:31,129|I|Thread-1|clicking '//*[@id="menu_admin_viewAdminModule"]'...
+2019-07-29 17:02:31,153|I|Thread-1|click target via JS, @id=menu_admin_viewAdminModule
+2019-07-29 17:02:31,923|I|Thread-1|clicked -> true
+2019-07-29 17:02:31,924|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 35|web.click(locator) - PASS click via JS event
+2019-07-29 17:02:32,526|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 36|web.type(locator,value) - executing type(locator,value)(//*[@id="systemUser_employeeName_empName"], Shagufta Nisar)
+2019-07-29 17:02:33,642|E|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 36|web.type(locator,value) - FAIL EXECUTING COMMAND: web.type(locator,value)('//*[@id="systemUser_employeeName_empName"]', 'Shagufta Nisar')
+Specified element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="systemUser_employeeName_empName"]"}   (Session info: chrome=75.0.3770.142)...
+2019-07-29 17:02:34,246|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 37|web.type(locator,value) - executing type(locator,value)(//*[@id="systemUser_userName"], shagufta.nisar)
+2019-07-29 17:02:35,205|E|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 37|web.type(locator,value) - FAIL EXECUTING COMMAND: web.type(locator,value)('//*[@id="systemUser_userName"]', 'shagufta.nisar')
+Specified element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="systemUser_userName"]"}   (Session info: chrome=75.0.3770.142)...
+2019-07-29 17:02:35,810|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 38|web.type(locator,value) - executing type(locator,value)(//*[@id="systemUser_password"], shagufta)
+2019-07-29 17:02:36,791|E|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 38|web.type(locator,value) - FAIL EXECUTING COMMAND: web.type(locator,value)('//*[@id="systemUser_password"]', 'shagufta')
+Specified element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="systemUser_password"]"}   (Session info: chrome=75.0.3770.142)...
+2019-07-29 17:02:37,397|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 39|web.type(locator,value) - executing type(locator,value)(//*[@id="systemUser_confirmPassword"], shagufta)
+2019-07-29 17:02:38,341|E|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 39|web.type(locator,value) - FAIL EXECUTING COMMAND: web.type(locator,value)('//*[@id="systemUser_confirmPassword"]', 'shagufta')
+Specified element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="systemUser_confirmPassword"]"}   (Session info: chrome=75.0.3770.142)...
+2019-07-29 17:02:38,947|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 40|web.click(locator) - executing click(locator)(//*[@id="btnSave"])
+2019-07-29 17:02:39,889|E|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 40|web.click(locator) - FAIL No element via locator '//*[@id="btnSave"]'
+2019-07-29 17:02:40,493|I|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 41|base.save(var,value) - executing save(var,value)()
+2019-07-29 17:02:40,502|E|Thread-1|OrangeHRM.20190729_170141.001|Scenario|Activity 1|# 41|base.save(var,value) - FAIL MISMATCHED parameters - base.save EXPECTS 2 but found 0
+2019-07-29 17:02:40,946|I|Thread-1|[OrangeHRM.20190729_170141.001|Scenario] saving test scenario
+2019-07-29 17:02:41,063|I|Thread-1|[20190729_170140] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\OrangeHRM\output\20190729_170140\OrangeHRM.20190729_170141.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 57171 ms
+» Test Steps:     37
+» Error(s):       6
+
+
+
+2019-07-29 17:02:45,723|I|Thread-1|[20190729_170140] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\OrangeHRM\artifact\script\OrangeHRM.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 64909 ms
+» Iterations:     [1] total 1
+» Test Steps:     37
+» Passed:         31
+» Error(s):       6
+» Iteration 1 of 1: C:\projects\OrangeHRM\output\20190729_170140\OrangeHRM.20190729_170141.001.xlsx
+
+
+
+2019-07-29 17:02:45,796|I|main|[20190729_170140] [C:\projects\OrangeHRM\artifact\script\OrangeHRM.xlsx] now completed
+2019-07-29 17:02:45,797|I|main|[20190729_170140] all execution thread(s) have terminated
+2019-07-29 17:02:45,797|I|main|[20190729_170140] test run completed in about 65 seconds
+2019-07-29 17:02:45,924|I|main|No predefined nexial-setup found
+2019-07-29 17:02:45,997|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-07-29 17:02:45,998|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-07-29 17:02:45,998|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-07-29 17:02:46,000|I|main|generating HTML output for this execution to C:\projects\OrangeHRM\output\20190729_170140\execution-output.html
+2019-07-29 17:02:46,797|I|main|generating JUnit XML output for this execution to C:\projects\OrangeHRM\output\20190729_170140\junit.xml
+2019-07-29 17:02:46,858|I|main|generated JUnit report for this execution: C:\projects\OrangeHRM\output\20190729_170140\junit.xml
+2019-07-29 17:02:46,881|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-07-29 17:02:46,883|I|main|skipped email notification as configured
+2019-07-29 17:02:46,886|I|main|exiting Nexial...
+2019-07-29 17:02:46,887|I|main|shutdown starts...
+2019-07-29 17:02:46,888|I|main|Shutting down 'chrome' webdriver...
+2019-07-29 17:02:54,596|I|main|shutdown ends...
+2019-07-29 17:02:54,597|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 65 sec.
+| » Test Steps....: 37
+| » Passed........: 31
+| » Failed........: 6
+| » Success Rate..: 83.78%
+\----------------------------------------------------------nexial-core dev_0580-
+
+2019-07-29 17:02:54,598|E|main|failure found; success rate is 83.78%
+2019-07-29 17:02:54,599|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\OrangeHRM\output\20190729_170140
+NEXIAL_EXECUTION_HTML: C:\projects\OrangeHRM\output\20190729_170140\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\OrangeHRM\output\20190729_170140\junit.xml
+NEXIAL_SUCCESS_RATE:   83.78%
+NEXIAL_EXIT_STATUS:    -13

@@ -1,0 +1,12 @@
+{
+  "sql": "Select * from link_desc where name=\"Bill Gates\"",
+  "startTime": 1564463733548,
+  "elapsedTime": 3,
+  "rowCount": 2,
+  "columns": [
+    "name",
+    "url"
+  ],
+  "rolledBack": false,
+  "sqlType": "SELECT"
+}

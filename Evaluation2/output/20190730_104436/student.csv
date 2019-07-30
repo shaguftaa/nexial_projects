@@ -1,0 +1,1 @@
+ERROR: Error occurred when executing 'INSERT INTO STUDENT VALUES (6, 'Shagufta', 29-05-1997, 'Lucknow' );': [SQLITE_CONSTRAINT]  Abort due to constraint violation (UNIQUE constraint failed: STUDENT.ID)

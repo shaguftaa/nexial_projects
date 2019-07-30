@@ -1,0 +1,113 @@
+2019-07-25 14:40:02,964|I|Thread-1|(DELAYED) nexial-core dev_0580 starting up...
+2019-07-25 14:40:02,964|I|Thread-1|(DELAYED) data file resolved as C:\Users\SHAGUF~1.NIS\AppData\Local\Temp\idmWP\WebAutomation.data.xlsx
+2019-07-25 14:40:02,964|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-07-25 14:40:02,964|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-07-25 14:40:02,964|I|Thread-1|(DELAYED) [20190725_144002] [C:\projects\WebAutomation\artifact\script\WebAutomation.xlsx] resolve RUN ID as 20190725_144002
+2019-07-25 14:40:02,964|I|Thread-1|(DELAYED) [20190725_144002] [C:\projects\WebAutomation\artifact\script\WebAutomation.xlsx] new thread started
+2019-07-25 14:40:02,964|I|Thread-1|No predefined nexial-setup found
+2019-07-25 14:40:03,058|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-07-25 14:40:03,058|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-07-25 14:40:03,058|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-07-25 14:40:03,089|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-07-25 14:40:03,890|I|Thread-1|[20190725_144002] executing C:\projects\WebAutomation\artifact\script\WebAutomation.xlsx with 1 iteration(s)
+2019-07-25 14:40:03,890|I|Thread-1|[20190725_144002] create directory C:\projects\WebAutomation\output\20190725_144002\captures
+2019-07-25 14:40:03,890|I|Thread-1|[20190725_144002] create directory C:\projects\WebAutomation\output\20190725_144002\logs
+2019-07-25 14:40:05,925|I|Thread-1|[20190725_144002] merging test data to tmp file C:\projects\WebAutomation\output\20190725_144002\WebAutomation.20190725_144003.001.xlsx
+2019-07-25 14:40:05,941|I|Thread-1|refetching data from C:\projects\WebAutomation\artifact\data\WebAutomation.data.xlsx
+2019-07-25 14:40:06,215|I|Thread-1|[20190725_144002] test script and test data merged to C:\projects\WebAutomation\output\20190725_144002\WebAutomation.20190725_144003.001.xlsx
+2019-07-25 14:40:06,847|I|Thread-1|STARTS
+2019-07-25 14:40:06,878|I|Thread-1|WebAutomation.20190725_144003.001 - executing iteration #1 of 1; Iteration Id 1
+2019-07-25 14:40:06,894|I|Thread-1|WebAutomation.20190725_144003.001|S2 - executing test scenario
+2019-07-25 14:40:06,894|I|Thread-1|WebAutomation.20190725_144003.001|S2|Activity 1 - executing activity
+2019-07-25 14:40:07,505|I|Thread-1|WebAutomation.20190725_144003.001|S2|Activity 1|#  5|web.open(url) - executing open(url)(https://www.google.com/)
+2019-07-25 14:40:07,505|I|Thread-1|No valid instance of webdriver, initializing...
+2019-07-25 14:40:07,505|I|Thread-1|init chrome
+2019-07-25 14:40:13,878|I|Thread-1|browser initialization completed for 'chrome'
+2019-07-25 14:40:13,909|I|Thread-1|setting browser polling wait time to 800 ms
+2019-07-25 14:40:13,940|I|Thread-1|setting browser page load timeout to 10000 ms
+2019-07-25 14:40:15,984|I|Thread-1|current browser window handle:CDwindow-E0A27E6EEF6235F29070276727090A06
+2019-07-25 14:40:16,046|I|Thread-1|WebAutomation.20190725_144003.001|S2|Activity 1|#  5|web.open(url) - PASS opened URL https://www.google.com/
+2019-07-25 14:40:16,652|I|Thread-1|WebAutomation.20190725_144003.001|S2|Activity 1|#  6|web.assertTitle(text) - executing assertTitle(text)(Google)
+2019-07-25 14:40:16,668|I|Thread-1|WebAutomation.20190725_144003.001|S2|Activity 1|#  6|web.assertTitle(text) - PASS 
+2019-07-25 14:40:17,290|I|Thread-1|WebAutomation.20190725_144003.001|S2|Activity 1|#  7|web.assertElementPresent( - executing assertElementPresent(locator)(//input[@name='q'])
+2019-07-25 14:40:17,352|I|Thread-1|WebAutomation.20190725_144003.001|S2|Activity 1|#  7|web.assertElementPresent( - PASS EXPECTED element '//input[@name='q']' found
+2019-07-25 14:40:17,962|I|Thread-1|WebAutomation.20190725_144003.001|S2|Activity 1|#  8|web.click(locator) - executing click(locator)(//a[@class='gb_e'])
+2019-07-25 14:40:18,008|I|Thread-1|clicking '//a[@class='gb_e']'...
+2019-07-25 14:40:18,040|I|Thread-1|click target via JS, @id=
+2019-07-25 14:40:20,022|I|Thread-1|clicked -> true
+2019-07-25 14:40:20,023|I|Thread-1|WebAutomation.20190725_144003.001|S2|Activity 1|#  8|web.click(locator) - PASS click via JS event
+2019-07-25 14:40:20,637|I|Thread-1|WebAutomation.20190725_144003.001|S2|Activity 1|#  9|web.click(locator) - executing click(locator)(//a[@ga-event-action='sign in'])
+2019-07-25 14:40:20,668|I|Thread-1|clicking '//a[@ga-event-action='sign in']'...
+2019-07-25 14:40:20,700|I|Thread-1|click target via JS, @id=
+2019-07-25 14:40:20,804|I|Thread-1|clicked -> true
+2019-07-25 14:40:20,805|I|Thread-1|WebAutomation.20190725_144003.001|S2|Activity 1|#  9|web.click(locator) - PASS click via JS event
+2019-07-25 14:40:21,407|I|Thread-1|WebAutomation.20190725_144003.001|S2|Activity 1|# 10|web.assertAttribute(locat - executing assertAttribute(locator,attrName,value)(//input[@id='identifierId'], type, email)
+2019-07-25 14:40:22,739|E|Thread-1|WebAutomation.20190725_144003.001|S2|Activity 1|# 10|web.assertAttribute(locat - FAIL no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='identifierId']"}
+  (Session info: chrome=75.0.3770.142)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINDT-051', ip: '50.50.50.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: true, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\SHAGUF~1.NIS\AppDa...}, chrome.prefs: {multiple-automatic-downloads: 1, profile.content_settings.pattern_pairs.*.multiple-automatic-downloads: 1, profile.content_settings.pattern_pairs.,.multiple-automatic-downloads: 1}, goog:chromeOptions: {debuggerAddress: localhost:51358}, handlesAlerts: true, honorSystemProxy: false, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: accept, unhandledPromptBehavior: accept, webStorageEnabled: true}
+Session ID: 2ecae452d6e2f56032a0af32bc8ff710
+*** Element info: {Using=xpath, value=//input[@id='identifierId']}
+2019-07-25 14:40:23,357|I|Thread-1|WebAutomation.20190725_144003.001|S2|Activity 1|# 11|web.click(locator) - executing click(locator)(//span[@class='RveJvd snByac'])
+2019-07-25 14:40:24,197|E|Thread-1|WebAutomation.20190725_144003.001|S2|Activity 1|# 11|web.click(locator) - FAIL No element via locator '//span[@class='RveJvd snByac']'
+2019-07-25 14:40:24,439|I|Thread-1|[WebAutomation.20190725_144003.001|S2] saving test scenario
+2019-07-25 14:40:24,584|I|Thread-1|[20190725_144002] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\WebAutomation\output\20190725_144002\WebAutomation.20190725_144003.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 17683 ms
+» Test Steps:     7
+» Error(s):       2
+
+
+
+2019-07-25 14:40:25,826|I|Thread-1|[20190725_144002] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\WebAutomation\artifact\script\WebAutomation.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 23037 ms
+» Iterations:     [1] total 1
+» Test Steps:     7
+» Passed:         5
+» Error(s):       2
+» Iteration 1 of 1: C:\projects\WebAutomation\output\20190725_144002\WebAutomation.20190725_144003.001.xlsx
+
+
+
+2019-07-25 14:40:26,815|I|main|[20190725_144002] [C:\projects\WebAutomation\artifact\script\WebAutomation.xlsx] now completed
+2019-07-25 14:40:26,815|I|main|[20190725_144002] all execution thread(s) have terminated
+2019-07-25 14:40:26,815|I|main|[20190725_144002] test run completed in about 24 seconds
+2019-07-25 14:40:26,940|I|main|No predefined nexial-setup found
+2019-07-25 14:40:27,001|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-07-25 14:40:27,002|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-07-25 14:40:27,003|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-07-25 14:40:27,004|I|main|generating HTML output for this execution to C:\projects\WebAutomation\output\20190725_144002\execution-output.html
+2019-07-25 14:40:27,820|I|main|generating JUnit XML output for this execution to C:\projects\WebAutomation\output\20190725_144002\junit.xml
+2019-07-25 14:40:27,851|I|main|generated JUnit report for this execution: C:\projects\WebAutomation\output\20190725_144002\junit.xml
+2019-07-25 14:40:27,851|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-07-25 14:40:27,851|I|main|skipped email notification as configured
+2019-07-25 14:40:27,851|I|main|exiting Nexial...
+2019-07-25 14:40:27,851|I|main|shutdown starts...
+2019-07-25 14:40:27,851|I|main|Shutting down 'chrome' webdriver...
+2019-07-25 14:40:31,727|I|main|shutdown ends...
+2019-07-25 14:40:31,727|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 24 sec.
+| » Test Steps....: 7
+| » Passed........: 5
+| » Failed........: 2
+| » Success Rate..: 71.43%
+\----------------------------------------------------------nexial-core dev_0580-
+
+2019-07-25 14:40:31,727|E|main|failure found; success rate is 71.43%
+2019-07-25 14:40:31,727|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\WebAutomation\output\20190725_144002
+NEXIAL_EXECUTION_HTML: C:\projects\WebAutomation\output\20190725_144002\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\WebAutomation\output\20190725_144002\junit.xml
+NEXIAL_SUCCESS_RATE:   71.43%
+NEXIAL_EXIT_STATUS:    -13

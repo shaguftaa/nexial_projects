@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20190719_164320" timestamp="2019-07-19T16:43:21" time="12.009" tests="6" errors="1">
+  <testsuite id="1" name="DemoProject" package="DemoProject" hostname="ATMECSINDT-051" timestamp="2019-07-19T16:43:22" time="6.569" tests="6" errors="1">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-051" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="shagufta.nisar" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="DemoProject.xlsx" />
+      <property name="Logs" value="C:\projects\DemoProject\output\20190719_164320\logs\nexial-20190719_164320.log" />
+      <property name="Data File" value="DemoProject.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="JAVA_OPT" value="-Dorg.apache.poi.util.POILogger=org.apache.poi.util.NullLogger" />
+      <property name="runtime args" value="-script C:\projects\DemoProject\artifact\script\DemoProject.xlsx" />
+    </properties>
+    <testcase id="Activity 1" name="Activity 1" classname="Scenario (2)" timestamp="2019-07-19T16:43:24" time="4.646">
+      <failure type="failure found in test activity" message="1 of 2 FAILED. Check C:\projects\DemoProject\output\20190719_164320\DemoProject.20190719_164322.001.xlsx for execution result, C:\projects\DemoProject\output\20190719_164320\logs\nexial-20190719_164320.log for execution logs" />
+      <system-out>Total : 2
+Passed: 1
+Failed: 1
+Output: C:\projects\DemoProject\output\20190719_164320\DemoProject.20190719_164322.001.xlsx
+Logs  : C:\projects\DemoProject\output\20190719_164320\logs\nexial-20190719_164320.log</system-out>
+    </testcase>
+    <testcase id="Activity 1" name="Activity 1" classname="Scenario" timestamp="2019-07-19T16:43:26" time="2.812">
+      <system-out>Total : 3
+Passed: 3
+Failed: 0
+Output: C:\projects\DemoProject\output\20190719_164320\DemoProject.20190719_164322.001.xlsx
+Logs  : C:\projects\DemoProject\output\20190719_164320\logs\nexial-20190719_164320.log</system-out>
+    </testcase>
+    <testcase id="Activity 2" name="Activity 2" classname="Scenario" timestamp="2019-07-19T16:43:27" time="0.907">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\DemoProject\output\20190719_164320\DemoProject.20190719_164322.001.xlsx
+Logs  : C:\projects\DemoProject\output\20190719_164320\logs\nexial-20190719_164320.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

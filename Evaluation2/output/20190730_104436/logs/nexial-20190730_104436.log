@@ -1,0 +1,478 @@
+2019-07-30 10:44:36,396|I|Thread-1|(DELAYED) nexial-core dev_0580 starting up...
+2019-07-30 10:44:36,400|I|Thread-1|(DELAYED) data file resolved as C:\Users\SHAGUF~1.NIS\AppData\Local\Temp\fjgOF\Evaluation2.data.xlsx
+2019-07-30 10:44:36,400|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-07-30 10:44:36,400|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-07-30 10:44:36,400|I|Thread-1|(DELAYED) [20190730_104436] [C:\projects\Evaluation2\artifact\script\Evaluation2.xlsx] resolve RUN ID as 20190730_104436
+2019-07-30 10:44:36,400|I|Thread-1|(DELAYED) [20190730_104436] [C:\projects\Evaluation2\artifact\script\Evaluation2.xlsx] new thread started
+2019-07-30 10:44:36,401|I|Thread-1|No predefined nexial-setup found
+2019-07-30 10:44:36,477|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-07-30 10:44:36,478|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-07-30 10:44:36,478|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-07-30 10:44:36,508|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-07-30 10:44:37,343|I|Thread-1|[20190730_104436] executing C:\projects\Evaluation2\artifact\script\Evaluation2.xlsx with 4 iteration(s)
+2019-07-30 10:44:37,353|I|Thread-1|[20190730_104436] create directory C:\projects\Evaluation2\output\20190730_104436\captures
+2019-07-30 10:44:37,355|I|Thread-1|[20190730_104436] create directory C:\projects\Evaluation2\output\20190730_104436\logs
+2019-07-30 10:44:38,203|I|Thread-1|[20190730_104436] merging test data to tmp file C:\projects\Evaluation2\output\20190730_104436\Evaluation2.20190730_104437.001.xlsx
+2019-07-30 10:44:38,204|I|Thread-1|refetching data from C:\projects\Evaluation2\artifact\data\Evaluation2.data.xlsx
+2019-07-30 10:44:38,567|I|Thread-1|[20190730_104436] test script and test data merged to C:\projects\Evaluation2\output\20190730_104436\Evaluation2.20190730_104437.001.xlsx
+2019-07-30 10:44:39,365|I|Thread-1|STARTS
+2019-07-30 10:44:39,393|I|Thread-1|Evaluation2.20190730_104437.001 - executing iteration #1 of 4; Iteration Id 1
+2019-07-30 10:44:39,401|I|Thread-1|Evaluation2.20190730_104437.001|WebAutomation - executing test scenario
+2019-07-30 10:44:39,403|I|Thread-1|Evaluation2.20190730_104437.001|WebAutomation|Activity 1 - executing activity
+2019-07-30 10:44:40,006|I|Thread-1|Evaluation2.20190730_104437.001|WebAutomation|Activity 1|#  5|web.open(url) - executing open(url)(https://www.google.com)
+2019-07-30 10:44:40,011|I|Thread-1|No valid instance of webdriver, initializing...
+2019-07-30 10:44:40,013|I|Thread-1|init chrome
+2019-07-30 10:44:46,245|I|Thread-1|browser initialization completed for 'chrome'
+2019-07-30 10:44:46,270|I|Thread-1|setting browser polling wait time to 800 ms
+2019-07-30 10:44:46,289|I|Thread-1|setting browser page load timeout to 10000 ms
+2019-07-30 10:44:48,605|I|Thread-1|current browser window handle:CDwindow-57068FB3EF88F1884A81751EC7D08B81
+2019-07-30 10:44:48,651|I|Thread-1|Evaluation2.20190730_104437.001|WebAutomation|Activity 1|#  5|web.open(url) - PASS opened URL https://www.google.com
+2019-07-30 10:44:49,256|I|Thread-1|Evaluation2.20190730_104437.001|WebAutomation|Activity 1|#  6|web.assertTitle(text) - executing assertTitle(text)(Google)
+2019-07-30 10:44:49,296|I|Thread-1|Evaluation2.20190730_104437.001|WebAutomation|Activity 1|#  6|web.assertTitle(text) - PASS 
+2019-07-30 10:44:49,906|I|Thread-1|Evaluation2.20190730_104437.001|WebAutomation|Activity 1|#  7|web.type(locator,value) - executing type(locator,value)(//input[@name='q'], ${search_var})
+2019-07-30 10:44:50,539|I|Thread-1|Evaluation2.20190730_104437.001|WebAutomation|Activity 1|#  7|web.type(locator,value) - PASS typed text at '//input[@name='q']'
+2019-07-30 10:44:51,167|I|Thread-1|Evaluation2.20190730_104437.001|WebAutomation|Activity 1|#  8|web.click(locator) - executing click(locator)(//input[@value='Google Search'])
+2019-07-30 10:44:51,216|I|Thread-1|clicking '//input[@value='Google Search']'...
+2019-07-30 10:44:51,244|I|Thread-1|click target via JS, @id=
+2019-07-30 10:44:53,094|I|Thread-1|clicked -> true
+2019-07-30 10:44:53,095|I|Thread-1|Evaluation2.20190730_104437.001|WebAutomation|Activity 1|#  8|web.click(locator) - PASS click via JS event
+2019-07-30 10:44:53,697|I|Thread-1|Evaluation2.20190730_104437.001|WebAutomation|Activity 1|#  9|web.saveTextArray(var,loc - executing saveTextArray(var,locator)(atmecs, class=iUh30)
+2019-07-30 10:44:54,208|I|Thread-1|Evaluation2.20190730_104437.001|WebAutomation|Activity 1|#  9|web.saveTextArray(var,loc - PASS stored content of 'class=iUh30' as ${atmecs}
+2019-07-30 10:44:54,812|I|Thread-1|Evaluation2.20190730_104437.001|WebAutomation|Activity 1|# 10|base.verbose(text) - executing verbose(text)(${atmecs})
+2019-07-30 10:44:54,816|I|Thread-1|Evaluation2.20190730_104437.001|WebAutomation|Activity 1|# 10|base.verbose(text) - www.atmecs.com/,https://www.glassdoor.co.in/Reviews/ATMECS-Reviews-E1318180.htm,https://www.glassdoor.co.in/.../Working-at-ATMECS-EI_IE1318180.11,17.htm,https://in.linkedin.com/company/atmecs-inc,https://mapr.com/partners/partner/atmecs-technologies-pvt-ltd/,https://www.glassdoor.com/Overview/Working-at-ATMECS-EI_IE1318180.11,17.htm,https://www.glassdoor.com › Reviews › Hyderabad,https://www.naukri.com/atmecs-technologies-pvt-ltd-jobs-careers-1089084,https://www.indeed.co.in/cmp/Atmecs-Technologies/reviews,https://www.ambitionbox.com/reviews/atmecs-technologies-reviews
+2019-07-30 10:44:54,825|I|Thread-1|Evaluation2.20190730_104437.001|WebAutomation|Activity 1|# 10|base.verbose(text) - PASS 
+2019-07-30 10:44:55,428|I|Thread-1|Evaluation2.20190730_104437.001|WebAutomation|Activity 1|# 11|base.save(var,value) - executing save(var,value)(atmecs_length, $(array|length|${atmecs}))
+2019-07-30 10:44:55,438|I|Thread-1|Evaluation2.20190730_104437.001|WebAutomation|Activity 1|# 11|base.save(var,value) - PASS stored '12' as ${atmecs_length}
+2019-07-30 10:44:56,042|I|Thread-1|Evaluation2.20190730_104437.001|WebAutomation|Activity 1|# 12|base.verbose(text) - executing verbose(text)(${atmecs_length})
+2019-07-30 10:44:56,045|I|Thread-1|Evaluation2.20190730_104437.001|WebAutomation|Activity 1|# 12|base.verbose(text) - 12
+2019-07-30 10:44:56,049|I|Thread-1|Evaluation2.20190730_104437.001|WebAutomation|Activity 1|# 12|base.verbose(text) - PASS 
+2019-07-30 10:44:56,652|I|Thread-1|Evaluation2.20190730_104437.001|WebAutomation|Activity 1|# 13|base.save(var,value) - executing save(var,value)(atmecsSorted, $(array|ascending|${atmecs}))
+2019-07-30 10:44:56,659|I|Thread-1|Evaluation2.20190730_104437.001|WebAutomation|Activity 1|# 13|base.save(var,value) - PASS stored '17.htm,17.htm,https://in.linkedin.com/company/atmecs-inc,https://mapr.com/partners/partner/atmecs-technologies-pvt-ltd/,https://www.ambitionbox.com/reviews/atmecs-technologies-reviews,https://www.glassdoor.co.in/.../Working-at-ATMECS-EI_IE1318180.11,https://www.glassdoor.co.in/Reviews/ATMECS-Reviews-E1318180.htm,https://www.glassdoor.com › Reviews › Hyderabad,https://www.glassdoor.com/Overview/Working-at-ATMECS-EI_IE1318180.11,https://www.indeed.co.in/cmp/Atmecs-Technologies/reviews,https://www.naukri.com/atmecs-technologies-pvt-ltd-jobs-careers-1089084,www.atmecs.com/' as ${atmecsSorted}
+2019-07-30 10:44:57,265|I|Thread-1|Evaluation2.20190730_104437.001|WebAutomation|Activity 1|# 14|base.verbose(text) - executing verbose(text)(${atmecsSorted})
+2019-07-30 10:44:57,268|I|Thread-1|Evaluation2.20190730_104437.001|WebAutomation|Activity 1|# 14|base.verbose(text) - 17.htm,17.htm,https://in.linkedin.com/company/atmecs-inc,https://mapr.com/partners/partner/atmecs-technologies-pvt-ltd/,https://www.ambitionbox.com/reviews/atmecs-technologies-reviews,https://www.glassdoor.co.in/.../Working-at-ATMECS-EI_IE1318180.11,https://www.glassdoor.co.in/Reviews/ATMECS-Reviews-E1318180.htm,https://www.glassdoor.com › Reviews › Hyderabad,https://www.glassdoor.com/Overview/Working-at-ATMECS-EI_IE1318180.11,https://www.indeed.co.in/cmp/Atmecs-Technologies/reviews,https://www.naukri.com/atmecs-technologies-pvt-ltd-jobs-careers-1089084,www.atmecs.com/
+2019-07-30 10:44:57,276|I|Thread-1|Evaluation2.20190730_104437.001|WebAutomation|Activity 1|# 14|base.verbose(text) - PASS 
+2019-07-30 10:44:57,877|I|Thread-1|Evaluation2.20190730_104437.001|WebAutomation|Activity 1|# 15|rdbms.runSQL(var,db,sql) - executing runSQL(var,db,sql)(atmecsRecord, mydb, Insert into link_desc values ("${search_var}" ,"${atmecsSorted}"))
+2019-07-30 10:44:58,153|I|Thread-1|Evaluation2.20190730_104437.001|WebAutomation|Activity 1|# 15|rdbms.runSQL(var,db,sql) - new connection established for 'mydb'
+2019-07-30 10:44:58,644|I|Thread-1|Evaluation2.20190730_104437.001|WebAutomation|Activity 1|# 15|rdbms.runSQL(var,db,sql) - executed query in 486 ms with ERROR Error occurred when executing 'Insert into link_desc values ("ATMECS" ,"17.htm,17.htm,https://in.linkedin.com/company/atmecs-inc,https://mapr.com/partners/partner/atmecs-technologies-pvt-ltd/,https://www.ambitionbox.com/reviews/atmecs-technologies-reviews,https://www.glassdoor.co.in/.../Working-at-ATMECS-EI_IE1318180.11,https://www.glassdoor.co.in/Reviews/ATMECS-Reviews-E1318180.htm,https://www.glassdoor.com › Reviews › Hyderabad,https://www.glassdoor.com/Overview/Working-at-ATMECS-EI_IE1318180.11,https://www.indeed.co.in/cmp/Atmecs-Technologies/reviews,https://www.naukri.com/atmecs-technologies-pvt-ltd-jobs-careers-1089084,www.atmecs.com/")': [SQLITE_CONSTRAINT]  Abort due to constraint violation (UNIQUE constraint failed: link_desc.url)
+2019-07-30 10:44:58,654|I|Thread-1|Evaluation2.20190730_104437.001|WebAutomation|Activity 1|# 15|rdbms.runSQL(var,db,sql) - PASS executed SQL 'Insert into link_desc values ("ATMECS" ,"17.htm,17.htm,https://in.linkedin.com/company/atmecs-inc,https://mapr.com/partners/partner/atmecs-technologies-pvt-ltd/,https://www.ambitionbox.com/reviews/atmecs-technologies-reviews,https://www.glassdoor.co.in/.../Working-at-ATMECS-EI_IE1318180.11,https://www.glassdoor.co.in/Reviews/ATMECS-Reviews-E1318180.htm,https://www.glassdoor.com › Reviews › Hyderabad,https://www.glassdoor.com/Overview/Working-at-ATMECS-EI_IE1318180.11,https://www.indeed.co.in/cmp/Atmecs-Technologies/reviews,https://www.naukri.com/atmecs-technologies-pvt-ltd-jobs-careers-1089084,www.atmecs.com/")'; stored result as ${atmecsRecord}
+2019-07-30 10:44:59,263|I|Thread-1|Evaluation2.20190730_104437.001|WebAutomation|Activity 1|# 16|rdbms.saveResult(db,sql,o - executing saveResult(db,sql,output)(mydb, Select * from link_desc where name="${search_var}", $(syspath|out|fullpath)/${search_var}.csv)
+2019-07-30 10:44:59,280|I|Thread-1|Evaluation2.20190730_104437.001|WebAutomation|Activity 1|# 16|rdbms.saveResult(db,sql,o - reusing established connection 'mydb'
+2019-07-30 10:44:59,349|I|Thread-1|Evaluation2.20190730_104437.001|WebAutomation|Activity 1|# 16|rdbms.saveResult(db,sql,o - executed query in 64 ms with 1 row(s)
+2019-07-30 10:44:59,502|I|Thread-1|Evaluation2.20190730_104437.001|WebAutomation|Activity 1|# 16|rdbms.saveResult(db,sql,o - PASS executed SQL 'Select * from link_desc where name="ATMECS"'; stored result to 'C:\projects\Evaluation2\output\20190730_104436\ATMECS.csv'
+2019-07-30 10:44:59,923|I|Thread-1|[Evaluation2.20190730_104437.001|WebAutomation] saving test scenario
+2019-07-30 10:45:00,077|I|Thread-1|Evaluation2.20190730_104437.001|Scenario - executing test scenario
+2019-07-30 10:45:00,080|I|Thread-1|Evaluation2.20190730_104437.001|Scenario|Activity 1 - executing activity
+2019-07-30 10:45:00,682|I|Thread-1|Evaluation2.20190730_104437.001|Scenario|Activity 1|#  5|rdbms.runSQL(var,db,sql) - executing runSQL(var,db,sql)(student, mydb2, CREATE TABLE STUDENT(  
+   ID INT PRIMARY KEY     NOT NULL,  
+   NAME           TEXT    NOT NULL,  
+   DOB          INT     NOT NULL,  
+   ADDRESS        CHAR(50)
+);   )
+2019-07-30 10:45:00,688|I|Thread-1|Evaluation2.20190730_104437.001|Scenario|Activity 1|#  5|rdbms.runSQL(var,db,sql) - new connection established for 'mydb2'
+2019-07-30 10:45:00,699|I|Thread-1|Evaluation2.20190730_104437.001|Scenario|Activity 1|#  5|rdbms.runSQL(var,db,sql) - executed query in 7 ms with ERROR Error occurred when executing 'CREATE TABLE STUDENT(  
+   ID INT PRIMARY KEY     NOT NULL,  
+   NAME           TEXT    NOT NULL,  
+   DOB          INT     NOT NULL,  
+   ADDRESS        CHAR(50)
+);': [SQLITE_ERROR] SQL error or missing database (table STUDENT already exists)
+2019-07-30 10:45:00,786|I|Thread-1|Evaluation2.20190730_104437.001|Scenario|Activity 1|#  5|rdbms.runSQL(var,db,sql) - PASS executed SQL 'CREATE TABLE STUDENT(  
+   ID INT PRIMARY KEY     NOT NULL,  
+   NAME           TEXT    NOT NULL,  
+   DOB          INT     NOT NULL,  
+   ADDRESS        CHAR(50)
+);   '; stored result as ${student}
+2019-07-30 10:45:01,394|I|Thread-1|Evaluation2.20190730_104437.001|Scenario|Activity 1|#  6|rdbms.runSQL(var,db,sql) - executing runSQL(var,db,sql)(department, mydb2, CREATE TABLE DEPARTMENT(  
+ ID INT PRIMARY KEY      NOT NULL,  
+  DEPT           CHAR(50) NOT NULL
+);   )
+2019-07-30 10:45:01,398|I|Thread-1|Evaluation2.20190730_104437.001|Scenario|Activity 1|#  6|rdbms.runSQL(var,db,sql) - reusing established connection 'mydb2'
+2019-07-30 10:45:01,402|I|Thread-1|Evaluation2.20190730_104437.001|Scenario|Activity 1|#  6|rdbms.runSQL(var,db,sql) - executed query in 1 ms with ERROR Error occurred when executing 'CREATE TABLE DEPARTMENT(  
+ ID INT PRIMARY KEY      NOT NULL,  
+  DEPT           CHAR(50) NOT NULL
+);': [SQLITE_ERROR] SQL error or missing database (table DEPARTMENT already exists)
+2019-07-30 10:45:01,475|I|Thread-1|Evaluation2.20190730_104437.001|Scenario|Activity 1|#  6|rdbms.runSQL(var,db,sql) - PASS executed SQL 'CREATE TABLE DEPARTMENT(  
+ ID INT PRIMARY KEY      NOT NULL,  
+  DEPT           CHAR(50) NOT NULL
+);   '; stored result as ${department}
+2019-07-30 10:45:02,081|I|Thread-1|Evaluation2.20190730_104437.001|Scenario|Activity 1|#  7|rdbms.runSQL(var,db,sql) - executing runSQL(var,db,sql)(student, mydb2, INSERT INTO STUDENT VALUES (6, 'Shagufta', 29-05-1997, 'Lucknow' );  )
+2019-07-30 10:45:02,084|I|Thread-1|Evaluation2.20190730_104437.001|Scenario|Activity 1|#  7|rdbms.runSQL(var,db,sql) - reusing established connection 'mydb2'
+2019-07-30 10:45:02,087|I|Thread-1|Evaluation2.20190730_104437.001|Scenario|Activity 1|#  7|rdbms.runSQL(var,db,sql) - executed query in 0 ms with ERROR Error occurred when executing 'INSERT INTO STUDENT VALUES (6, 'Shagufta', 29-05-1997, 'Lucknow' );': [SQLITE_CONSTRAINT]  Abort due to constraint violation (UNIQUE constraint failed: STUDENT.ID)
+2019-07-30 10:45:02,090|I|Thread-1|Evaluation2.20190730_104437.001|Scenario|Activity 1|#  7|rdbms.runSQL(var,db,sql) - PASS executed SQL 'INSERT INTO STUDENT VALUES (6, 'Shagufta', 29-05-1997, 'Lucknow' );  '; stored result as ${student}
+2019-07-30 10:45:02,693|I|Thread-1|Evaluation2.20190730_104437.001|Scenario|Activity 1|#  8|rdbms.runSQL(var,db,sql) - executing runSQL(var,db,sql)(department, mydb2, INSERT INTO DEPARTMENT VALUES (6, 'CSE' );  )
+2019-07-30 10:45:02,696|I|Thread-1|Evaluation2.20190730_104437.001|Scenario|Activity 1|#  8|rdbms.runSQL(var,db,sql) - reusing established connection 'mydb2'
+2019-07-30 10:45:02,699|I|Thread-1|Evaluation2.20190730_104437.001|Scenario|Activity 1|#  8|rdbms.runSQL(var,db,sql) - executed query in 0 ms with ERROR Error occurred when executing 'INSERT INTO DEPARTMENT VALUES (6, 'CSE' );': [SQLITE_CONSTRAINT]  Abort due to constraint violation (UNIQUE constraint failed: DEPARTMENT.ID)
+2019-07-30 10:45:02,701|I|Thread-1|Evaluation2.20190730_104437.001|Scenario|Activity 1|#  8|rdbms.runSQL(var,db,sql) - PASS executed SQL 'INSERT INTO DEPARTMENT VALUES (6, 'CSE' );  '; stored result as ${department}
+2019-07-30 10:45:03,305|I|Thread-1|Evaluation2.20190730_104437.001|Scenario|Activity 1|#  9|rdbms.resultToCSV(var,csv - executing resultToCSV(var,csvFile,delim,showHeader)(student, $(syspath|out|fullpath)/student.csv, ,, true)
+2019-07-30 10:45:03,311|I|Thread-1|Evaluation2.20190730_104437.001|Scenario|Activity 1|#  9|rdbms.resultToCSV(var,csv - PASS errors from previous command written to 'C:\projects\Evaluation2\output\20190730_104436\student.csv'
+2019-07-30 10:45:03,913|I|Thread-1|Evaluation2.20190730_104437.001|Scenario|Activity 1|# 10|rdbms.resultToCSV(var,csv - executing resultToCSV(var,csvFile,delim,showHeader)(department, $(syspath|out|fullpath)/department.csv, ,, true)
+2019-07-30 10:45:03,919|I|Thread-1|Evaluation2.20190730_104437.001|Scenario|Activity 1|# 10|rdbms.resultToCSV(var,csv - PASS errors from previous command written to 'C:\projects\Evaluation2\output\20190730_104436\department.csv'
+2019-07-30 10:45:04,077|I|Thread-1|[Evaluation2.20190730_104437.001|Scenario] saving test scenario
+2019-07-30 10:45:04,160|I|Thread-1|[20190730_104436] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\Evaluation2\output\20190730_104436\Evaluation2.20190730_104437.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 24762 ms
+» Test Steps:     18
+» Error(s):       0
+
+
+
+2019-07-30 10:45:05,059|I|Thread-1|[20190730_104436] create directory C:\projects\Evaluation2\output\20190730_104436\captures
+2019-07-30 10:45:05,061|I|Thread-1|[20190730_104436] create directory C:\projects\Evaluation2\output\20190730_104436\logs
+2019-07-30 10:45:05,411|I|Thread-1|[20190730_104436] merging test data to tmp file C:\projects\Evaluation2\output\20190730_104436\Evaluation2.20190730_104505.002.xlsx
+2019-07-30 10:45:05,412|I|Thread-1|refetching data from C:\projects\Evaluation2\artifact\data\Evaluation2.data.xlsx
+2019-07-30 10:45:05,581|I|Thread-1|[20190730_104436] test script and test data merged to C:\projects\Evaluation2\output\20190730_104436\Evaluation2.20190730_104505.002.xlsx
+2019-07-30 10:45:05,945|I|Thread-1|STARTS
+2019-07-30 10:45:05,958|I|Thread-1|Evaluation2.20190730_104505.002 - executing iteration #2 of 4; Iteration Id 2
+2019-07-30 10:45:05,962|I|Thread-1|Evaluation2.20190730_104505.002|WebAutomation - executing test scenario
+2019-07-30 10:45:05,963|I|Thread-1|Evaluation2.20190730_104505.002|WebAutomation|Activity 1 - executing activity
+2019-07-30 10:45:06,566|I|Thread-1|Evaluation2.20190730_104505.002|WebAutomation|Activity 1|#  5|web.open(url) - executing open(url)(https://www.google.com)
+2019-07-30 10:45:07,845|I|Thread-1|current browser window handle:CDwindow-57068FB3EF88F1884A81751EC7D08B81
+2019-07-30 10:45:07,882|I|Thread-1|Evaluation2.20190730_104505.002|WebAutomation|Activity 1|#  5|web.open(url) - PASS opened URL https://www.google.com
+2019-07-30 10:45:08,488|I|Thread-1|Evaluation2.20190730_104505.002|WebAutomation|Activity 1|#  6|web.assertTitle(text) - executing assertTitle(text)(Google)
+2019-07-30 10:45:08,507|I|Thread-1|Evaluation2.20190730_104505.002|WebAutomation|Activity 1|#  6|web.assertTitle(text) - PASS 
+2019-07-30 10:45:09,109|I|Thread-1|Evaluation2.20190730_104505.002|WebAutomation|Activity 1|#  7|web.type(locator,value) - executing type(locator,value)(//input[@name='q'], ${search_var})
+2019-07-30 10:45:09,369|I|Thread-1|Evaluation2.20190730_104505.002|WebAutomation|Activity 1|#  7|web.type(locator,value) - PASS typed text at '//input[@name='q']'
+2019-07-30 10:45:09,972|I|Thread-1|Evaluation2.20190730_104505.002|WebAutomation|Activity 1|#  8|web.click(locator) - executing click(locator)(//input[@value='Google Search'])
+2019-07-30 10:45:10,029|I|Thread-1|clicking '//input[@value='Google Search']'...
+2019-07-30 10:45:10,056|I|Thread-1|click target via JS, @id=
+2019-07-30 10:45:11,635|I|Thread-1|clicked -> true
+2019-07-30 10:45:11,636|I|Thread-1|Evaluation2.20190730_104505.002|WebAutomation|Activity 1|#  8|web.click(locator) - PASS click via JS event
+2019-07-30 10:45:12,238|I|Thread-1|Evaluation2.20190730_104505.002|WebAutomation|Activity 1|#  9|web.saveTextArray(var,loc - executing saveTextArray(var,locator)(atmecs, class=iUh30)
+2019-07-30 10:45:12,451|I|Thread-1|Evaluation2.20190730_104505.002|WebAutomation|Activity 1|#  9|web.saveTextArray(var,loc - PASS stored content of 'class=iUh30' as ${atmecs}
+2019-07-30 10:45:13,054|I|Thread-1|Evaluation2.20190730_104505.002|WebAutomation|Activity 1|# 10|base.verbose(text) - executing verbose(text)(${atmecs})
+2019-07-30 10:45:13,062|I|Thread-1|Evaluation2.20190730_104505.002|WebAutomation|Activity 1|# 10|base.verbose(text) - https://en.wikipedia.org/wiki/Sundar_Pichai,https://twitter.com/sundarpichai,https://www.news18.com/.../is-google-looking-for-a-replacement-for-ceo-sundar-pich...,https://www.businesstoday.in/technology/news/...sundar-pichai.../368835.html,https://www.britannica.com/biography/Sundar-Pichai,https://www.instagram.com/sundarpichai/?hl=en,https://www.crunchbase.com/person/sundar-pichai,https://www.cnbc.com/sundar-pichai/
+2019-07-30 10:45:13,088|I|Thread-1|Evaluation2.20190730_104505.002|WebAutomation|Activity 1|# 10|base.verbose(text) - PASS 
+2019-07-30 10:45:13,693|I|Thread-1|Evaluation2.20190730_104505.002|WebAutomation|Activity 1|# 11|base.save(var,value) - executing save(var,value)(atmecs_length, $(array|length|${atmecs}))
+2019-07-30 10:45:13,709|I|Thread-1|Evaluation2.20190730_104505.002|WebAutomation|Activity 1|# 11|base.save(var,value) - PASS stored '8' as ${atmecs_length}
+2019-07-30 10:45:14,315|I|Thread-1|Evaluation2.20190730_104505.002|WebAutomation|Activity 1|# 12|base.verbose(text) - executing verbose(text)(${atmecs_length})
+2019-07-30 10:45:14,322|I|Thread-1|Evaluation2.20190730_104505.002|WebAutomation|Activity 1|# 12|base.verbose(text) - 8
+2019-07-30 10:45:14,333|I|Thread-1|Evaluation2.20190730_104505.002|WebAutomation|Activity 1|# 12|base.verbose(text) - PASS 
+2019-07-30 10:45:14,936|I|Thread-1|Evaluation2.20190730_104505.002|WebAutomation|Activity 1|# 13|base.save(var,value) - executing save(var,value)(atmecsSorted, $(array|ascending|${atmecs}))
+2019-07-30 10:45:14,950|I|Thread-1|Evaluation2.20190730_104505.002|WebAutomation|Activity 1|# 13|base.save(var,value) - PASS stored 'https://en.wikipedia.org/wiki/Sundar_Pichai,https://twitter.com/sundarpichai,https://www.britannica.com/biography/Sundar-Pichai,https://www.businesstoday.in/technology/news/...sundar-pichai.../368835.html,https://www.cnbc.com/sundar-pichai/,https://www.crunchbase.com/person/sundar-pichai,https://www.instagram.com/sundarpichai/?hl=en,https://www.news18.com/.../is-google-looking-for-a-replacement-for-ceo-sundar-pich...' as ${atmecsSorted}
+2019-07-30 10:45:15,565|I|Thread-1|Evaluation2.20190730_104505.002|WebAutomation|Activity 1|# 14|base.verbose(text) - executing verbose(text)(${atmecsSorted})
+2019-07-30 10:45:15,608|I|Thread-1|Evaluation2.20190730_104505.002|WebAutomation|Activity 1|# 14|base.verbose(text) - https://en.wikipedia.org/wiki/Sundar_Pichai,https://twitter.com/sundarpichai,https://www.britannica.com/biography/Sundar-Pichai,https://www.businesstoday.in/technology/news/...sundar-pichai.../368835.html,https://www.cnbc.com/sundar-pichai/,https://www.crunchbase.com/person/sundar-pichai,https://www.instagram.com/sundarpichai/?hl=en,https://www.news18.com/.../is-google-looking-for-a-replacement-for-ceo-sundar-pich...
+2019-07-30 10:45:15,627|I|Thread-1|Evaluation2.20190730_104505.002|WebAutomation|Activity 1|# 14|base.verbose(text) - PASS 
+2019-07-30 10:45:16,234|I|Thread-1|Evaluation2.20190730_104505.002|WebAutomation|Activity 1|# 15|rdbms.runSQL(var,db,sql) - executing runSQL(var,db,sql)(atmecsRecord, mydb, Insert into link_desc values ("${search_var}" ,"${atmecsSorted}"))
+2019-07-30 10:45:16,240|I|Thread-1|Evaluation2.20190730_104505.002|WebAutomation|Activity 1|# 15|rdbms.runSQL(var,db,sql) - reusing established connection 'mydb'
+2019-07-30 10:45:16,355|I|Thread-1|Evaluation2.20190730_104505.002|WebAutomation|Activity 1|# 15|rdbms.runSQL(var,db,sql) - executed query in 105 ms with 1 row(s)
+2019-07-30 10:45:16,369|I|Thread-1|Evaluation2.20190730_104505.002|WebAutomation|Activity 1|# 15|rdbms.runSQL(var,db,sql) - PASS executed SQL 'Insert into link_desc values ("Sundar pichai" ,"https://en.wikipedia.org/wiki/Sundar_Pichai,https://twitter.com/sundarpichai,https://www.britannica.com/biography/Sundar-Pichai,https://www.businesstoday.in/technology/news/...sundar-pichai.../368835.html,https://www.cnbc.com/sundar-pichai/,https://www.crunchbase.com/person/sundar-pichai,https://www.instagram.com/sundarpichai/?hl=en,https://www.news18.com/.../is-google-looking-for-a-replacement-for-ceo-sundar-pich...")'; stored result as ${atmecsRecord}
+2019-07-30 10:45:16,977|I|Thread-1|Evaluation2.20190730_104505.002|WebAutomation|Activity 1|# 16|rdbms.saveResult(db,sql,o - executing saveResult(db,sql,output)(mydb, Select * from link_desc where name="${search_var}", $(syspath|out|fullpath)/${search_var}.csv)
+2019-07-30 10:45:16,988|I|Thread-1|Evaluation2.20190730_104505.002|WebAutomation|Activity 1|# 16|rdbms.saveResult(db,sql,o - reusing established connection 'mydb'
+2019-07-30 10:45:16,998|I|Thread-1|Evaluation2.20190730_104505.002|WebAutomation|Activity 1|# 16|rdbms.saveResult(db,sql,o - executed query in 4 ms with 2 row(s)
+2019-07-30 10:45:17,027|I|Thread-1|Evaluation2.20190730_104505.002|WebAutomation|Activity 1|# 16|rdbms.saveResult(db,sql,o - PASS executed SQL 'Select * from link_desc where name="Sundar pichai"'; stored result to 'C:\projects\Evaluation2\output\20190730_104436\Sundar pichai.csv'
+2019-07-30 10:45:17,160|I|Thread-1|[Evaluation2.20190730_104505.002|WebAutomation] saving test scenario
+2019-07-30 10:45:17,207|I|Thread-1|Evaluation2.20190730_104505.002|Scenario - executing test scenario
+2019-07-30 10:45:17,208|I|Thread-1|Evaluation2.20190730_104505.002|Scenario|Activity 1 - executing activity
+2019-07-30 10:45:17,810|I|Thread-1|Evaluation2.20190730_104505.002|Scenario|Activity 1|#  5|rdbms.runSQL(var,db,sql) - executing runSQL(var,db,sql)(student, mydb2, CREATE TABLE STUDENT(  
+   ID INT PRIMARY KEY     NOT NULL,  
+   NAME           TEXT    NOT NULL,  
+   DOB          INT     NOT NULL,  
+   ADDRESS        CHAR(50)
+);   )
+2019-07-30 10:45:17,835|I|Thread-1|Evaluation2.20190730_104505.002|Scenario|Activity 1|#  5|rdbms.runSQL(var,db,sql) - reusing established connection 'mydb2'
+2019-07-30 10:45:17,841|I|Thread-1|Evaluation2.20190730_104505.002|Scenario|Activity 1|#  5|rdbms.runSQL(var,db,sql) - executed query in 1 ms with ERROR Error occurred when executing 'CREATE TABLE STUDENT(  
+   ID INT PRIMARY KEY     NOT NULL,  
+   NAME           TEXT    NOT NULL,  
+   DOB          INT     NOT NULL,  
+   ADDRESS        CHAR(50)
+);': [SQLITE_ERROR] SQL error or missing database (table STUDENT already exists)
+2019-07-30 10:45:17,909|I|Thread-1|Evaluation2.20190730_104505.002|Scenario|Activity 1|#  5|rdbms.runSQL(var,db,sql) - PASS executed SQL 'CREATE TABLE STUDENT(  
+   ID INT PRIMARY KEY     NOT NULL,  
+   NAME           TEXT    NOT NULL,  
+   DOB          INT     NOT NULL,  
+   ADDRESS        CHAR(50)
+);   '; stored result as ${student}
+2019-07-30 10:45:18,514|I|Thread-1|Evaluation2.20190730_104505.002|Scenario|Activity 1|#  6|rdbms.runSQL(var,db,sql) - executing runSQL(var,db,sql)(department, mydb2, CREATE TABLE DEPARTMENT(  
+ ID INT PRIMARY KEY      NOT NULL,  
+  DEPT           CHAR(50) NOT NULL
+);   )
+2019-07-30 10:45:18,527|I|Thread-1|Evaluation2.20190730_104505.002|Scenario|Activity 1|#  6|rdbms.runSQL(var,db,sql) - reusing established connection 'mydb2'
+2019-07-30 10:45:18,536|I|Thread-1|Evaluation2.20190730_104505.002|Scenario|Activity 1|#  6|rdbms.runSQL(var,db,sql) - executed query in 1 ms with ERROR Error occurred when executing 'CREATE TABLE DEPARTMENT(  
+ ID INT PRIMARY KEY      NOT NULL,  
+  DEPT           CHAR(50) NOT NULL
+);': [SQLITE_ERROR] SQL error or missing database (table DEPARTMENT already exists)
+2019-07-30 10:45:18,605|I|Thread-1|Evaluation2.20190730_104505.002|Scenario|Activity 1|#  6|rdbms.runSQL(var,db,sql) - PASS executed SQL 'CREATE TABLE DEPARTMENT(  
+ ID INT PRIMARY KEY      NOT NULL,  
+  DEPT           CHAR(50) NOT NULL
+);   '; stored result as ${department}
+2019-07-30 10:45:19,214|I|Thread-1|Evaluation2.20190730_104505.002|Scenario|Activity 1|#  7|rdbms.runSQL(var,db,sql) - executing runSQL(var,db,sql)(student, mydb2, INSERT INTO STUDENT VALUES (6, 'Shagufta', 29-05-1997, 'Lucknow' );  )
+2019-07-30 10:45:19,223|I|Thread-1|Evaluation2.20190730_104505.002|Scenario|Activity 1|#  7|rdbms.runSQL(var,db,sql) - reusing established connection 'mydb2'
+2019-07-30 10:45:19,231|I|Thread-1|Evaluation2.20190730_104505.002|Scenario|Activity 1|#  7|rdbms.runSQL(var,db,sql) - executed query in 2 ms with ERROR Error occurred when executing 'INSERT INTO STUDENT VALUES (6, 'Shagufta', 29-05-1997, 'Lucknow' );': [SQLITE_CONSTRAINT]  Abort due to constraint violation (UNIQUE constraint failed: STUDENT.ID)
+2019-07-30 10:45:19,241|I|Thread-1|Evaluation2.20190730_104505.002|Scenario|Activity 1|#  7|rdbms.runSQL(var,db,sql) - PASS executed SQL 'INSERT INTO STUDENT VALUES (6, 'Shagufta', 29-05-1997, 'Lucknow' );  '; stored result as ${student}
+2019-07-30 10:45:19,847|I|Thread-1|Evaluation2.20190730_104505.002|Scenario|Activity 1|#  8|rdbms.runSQL(var,db,sql) - executing runSQL(var,db,sql)(department, mydb2, INSERT INTO DEPARTMENT VALUES (6, 'CSE' );  )
+2019-07-30 10:45:19,853|I|Thread-1|Evaluation2.20190730_104505.002|Scenario|Activity 1|#  8|rdbms.runSQL(var,db,sql) - reusing established connection 'mydb2'
+2019-07-30 10:45:19,863|I|Thread-1|Evaluation2.20190730_104505.002|Scenario|Activity 1|#  8|rdbms.runSQL(var,db,sql) - executed query in 2 ms with ERROR Error occurred when executing 'INSERT INTO DEPARTMENT VALUES (6, 'CSE' );': [SQLITE_CONSTRAINT]  Abort due to constraint violation (UNIQUE constraint failed: DEPARTMENT.ID)
+2019-07-30 10:45:19,873|I|Thread-1|Evaluation2.20190730_104505.002|Scenario|Activity 1|#  8|rdbms.runSQL(var,db,sql) - PASS executed SQL 'INSERT INTO DEPARTMENT VALUES (6, 'CSE' );  '; stored result as ${department}
+2019-07-30 10:45:20,480|I|Thread-1|Evaluation2.20190730_104505.002|Scenario|Activity 1|#  9|rdbms.resultToCSV(var,csv - executing resultToCSV(var,csvFile,delim,showHeader)(student, $(syspath|out|fullpath)/student.csv, ,, true)
+2019-07-30 10:45:20,493|I|Thread-1|Evaluation2.20190730_104505.002|Scenario|Activity 1|#  9|rdbms.resultToCSV(var,csv - PASS errors from previous command written to 'C:\projects\Evaluation2\output\20190730_104436\student.csv'
+2019-07-30 10:45:21,099|I|Thread-1|Evaluation2.20190730_104505.002|Scenario|Activity 1|# 10|rdbms.resultToCSV(var,csv - executing resultToCSV(var,csvFile,delim,showHeader)(department, $(syspath|out|fullpath)/department.csv, ,, true)
+2019-07-30 10:45:21,114|I|Thread-1|Evaluation2.20190730_104505.002|Scenario|Activity 1|# 10|rdbms.resultToCSV(var,csv - PASS errors from previous command written to 'C:\projects\Evaluation2\output\20190730_104436\department.csv'
+2019-07-30 10:45:21,209|I|Thread-1|[Evaluation2.20190730_104505.002|Scenario] saving test scenario
+2019-07-30 10:45:21,252|I|Thread-1|[20190730_104436] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\Evaluation2\output\20190730_104436\Evaluation2.20190730_104505.002.xlsx
+| Iteration:      2
+\-------------------------------------------------------------------------------
+» Execution Time: 15291 ms
+» Test Steps:     18
+» Error(s):       0
+
+
+
+2019-07-30 10:45:21,699|I|Thread-1|[20190730_104436] create directory C:\projects\Evaluation2\output\20190730_104436\captures
+2019-07-30 10:45:21,700|I|Thread-1|[20190730_104436] create directory C:\projects\Evaluation2\output\20190730_104436\logs
+2019-07-30 10:45:21,948|I|Thread-1|[20190730_104436] merging test data to tmp file C:\projects\Evaluation2\output\20190730_104436\Evaluation2.20190730_104521.003.xlsx
+2019-07-30 10:45:21,951|I|Thread-1|refetching data from C:\projects\Evaluation2\artifact\data\Evaluation2.data.xlsx
+2019-07-30 10:45:22,070|I|Thread-1|[20190730_104436] test script and test data merged to C:\projects\Evaluation2\output\20190730_104436\Evaluation2.20190730_104521.003.xlsx
+2019-07-30 10:45:22,304|I|Thread-1|STARTS
+2019-07-30 10:45:22,308|I|Thread-1|Evaluation2.20190730_104521.003 - executing iteration #3 of 4; Iteration Id 3
+2019-07-30 10:45:22,308|I|Thread-1|Evaluation2.20190730_104521.003|WebAutomation - executing test scenario
+2019-07-30 10:45:22,309|I|Thread-1|Evaluation2.20190730_104521.003|WebAutomation|Activity 1 - executing activity
+2019-07-30 10:45:22,910|I|Thread-1|Evaluation2.20190730_104521.003|WebAutomation|Activity 1|#  5|web.open(url) - executing open(url)(https://www.google.com)
+2019-07-30 10:45:24,185|I|Thread-1|current browser window handle:CDwindow-57068FB3EF88F1884A81751EC7D08B81
+2019-07-30 10:45:24,205|I|Thread-1|Evaluation2.20190730_104521.003|WebAutomation|Activity 1|#  5|web.open(url) - PASS opened URL https://www.google.com
+2019-07-30 10:45:24,809|I|Thread-1|Evaluation2.20190730_104521.003|WebAutomation|Activity 1|#  6|web.assertTitle(text) - executing assertTitle(text)(Google)
+2019-07-30 10:45:24,863|I|Thread-1|Evaluation2.20190730_104521.003|WebAutomation|Activity 1|#  6|web.assertTitle(text) - PASS 
+2019-07-30 10:45:25,465|I|Thread-1|Evaluation2.20190730_104521.003|WebAutomation|Activity 1|#  7|web.type(locator,value) - executing type(locator,value)(//input[@name='q'], ${search_var})
+2019-07-30 10:45:25,790|I|Thread-1|Evaluation2.20190730_104521.003|WebAutomation|Activity 1|#  7|web.type(locator,value) - PASS typed text at '//input[@name='q']'
+2019-07-30 10:45:26,393|I|Thread-1|Evaluation2.20190730_104521.003|WebAutomation|Activity 1|#  8|web.click(locator) - executing click(locator)(//input[@value='Google Search'])
+2019-07-30 10:45:26,491|I|Thread-1|clicking '//input[@value='Google Search']'...
+2019-07-30 10:45:26,541|I|Thread-1|click target via JS, @id=
+2019-07-30 10:45:28,163|I|Thread-1|clicked -> true
+2019-07-30 10:45:28,164|I|Thread-1|Evaluation2.20190730_104521.003|WebAutomation|Activity 1|#  8|web.click(locator) - PASS click via JS event
+2019-07-30 10:45:28,764|I|Thread-1|Evaluation2.20190730_104521.003|WebAutomation|Activity 1|#  9|web.saveTextArray(var,loc - executing saveTextArray(var,locator)(atmecs, class=iUh30)
+2019-07-30 10:45:29,059|I|Thread-1|Evaluation2.20190730_104521.003|WebAutomation|Activity 1|#  9|web.saveTextArray(var,loc - PASS stored content of 'class=iUh30' as ${atmecs}
+2019-07-30 10:45:29,663|I|Thread-1|Evaluation2.20190730_104521.003|WebAutomation|Activity 1|# 10|base.verbose(text) - executing verbose(text)(${atmecs})
+2019-07-30 10:45:29,671|I|Thread-1|Evaluation2.20190730_104521.003|WebAutomation|Activity 1|# 10|base.verbose(text) - https://en.wikipedia.org/wiki/Bill_Gates,https://twitter.com/BillGates,https://www.gatesnotes.com/,,,,,https://www.facebook.com › Pages › Public Figure,https://www.forbes.com/profile/bill-gates/,https://www.forbes.com/.../bill-gates-admits-that-his-biggest-mistake-was-letting-andro...,https://www.biographyonline.net/business/bill-gates.html,https://www.youtube.com/channel/UCnEiGCE13SUI7ZvojTAVBKw
+2019-07-30 10:45:29,687|I|Thread-1|Evaluation2.20190730_104521.003|WebAutomation|Activity 1|# 10|base.verbose(text) - PASS 
+2019-07-30 10:45:30,290|I|Thread-1|Evaluation2.20190730_104521.003|WebAutomation|Activity 1|# 11|base.save(var,value) - executing save(var,value)(atmecs_length, $(array|length|${atmecs}))
+2019-07-30 10:45:30,301|I|Thread-1|Evaluation2.20190730_104521.003|WebAutomation|Activity 1|# 11|base.save(var,value) - PASS stored '12' as ${atmecs_length}
+2019-07-30 10:45:30,906|I|Thread-1|Evaluation2.20190730_104521.003|WebAutomation|Activity 1|# 12|base.verbose(text) - executing verbose(text)(${atmecs_length})
+2019-07-30 10:45:30,913|I|Thread-1|Evaluation2.20190730_104521.003|WebAutomation|Activity 1|# 12|base.verbose(text) - 12
+2019-07-30 10:45:30,920|I|Thread-1|Evaluation2.20190730_104521.003|WebAutomation|Activity 1|# 12|base.verbose(text) - PASS 
+2019-07-30 10:45:31,523|I|Thread-1|Evaluation2.20190730_104521.003|WebAutomation|Activity 1|# 13|base.save(var,value) - executing save(var,value)(atmecsSorted, $(array|ascending|${atmecs}))
+2019-07-30 10:45:31,539|I|Thread-1|Evaluation2.20190730_104521.003|WebAutomation|Activity 1|# 13|base.save(var,value) - PASS stored ',,,,https://en.wikipedia.org/wiki/Bill_Gates,https://twitter.com/BillGates,https://www.biographyonline.net/business/bill-gates.html,https://www.facebook.com › Pages › Public Figure,https://www.forbes.com/.../bill-gates-admits-that-his-biggest-mistake-was-letting-andro...,https://www.forbes.com/profile/bill-gates/,https://www.gatesnotes.com/,https://www.youtube.com/channel/UCnEiGCE13SUI7ZvojTAVBKw' as ${atmecsSorted}
+2019-07-30 10:45:32,153|I|Thread-1|Evaluation2.20190730_104521.003|WebAutomation|Activity 1|# 14|base.verbose(text) - executing verbose(text)(${atmecsSorted})
+2019-07-30 10:45:32,163|I|Thread-1|Evaluation2.20190730_104521.003|WebAutomation|Activity 1|# 14|base.verbose(text) - ,,,,https://en.wikipedia.org/wiki/Bill_Gates,https://twitter.com/BillGates,https://www.biographyonline.net/business/bill-gates.html,https://www.facebook.com › Pages › Public Figure,https://www.forbes.com/.../bill-gates-admits-that-his-biggest-mistake-was-letting-andro...,https://www.forbes.com/profile/bill-gates/,https://www.gatesnotes.com/,https://www.youtube.com/channel/UCnEiGCE13SUI7ZvojTAVBKw
+2019-07-30 10:45:32,178|I|Thread-1|Evaluation2.20190730_104521.003|WebAutomation|Activity 1|# 14|base.verbose(text) - PASS 
+2019-07-30 10:45:32,781|I|Thread-1|Evaluation2.20190730_104521.003|WebAutomation|Activity 1|# 15|rdbms.runSQL(var,db,sql) - executing runSQL(var,db,sql)(atmecsRecord, mydb, Insert into link_desc values ("${search_var}" ,"${atmecsSorted}"))
+2019-07-30 10:45:32,790|I|Thread-1|Evaluation2.20190730_104521.003|WebAutomation|Activity 1|# 15|rdbms.runSQL(var,db,sql) - reusing established connection 'mydb'
+2019-07-30 10:45:32,924|I|Thread-1|Evaluation2.20190730_104521.003|WebAutomation|Activity 1|# 15|rdbms.runSQL(var,db,sql) - executed query in 126 ms with 1 row(s)
+2019-07-30 10:45:32,929|I|Thread-1|Evaluation2.20190730_104521.003|WebAutomation|Activity 1|# 15|rdbms.runSQL(var,db,sql) - PASS executed SQL 'Insert into link_desc values ("Bill Gates" ,",,,,https://en.wikipedia.org/wiki/Bill_Gates,https://twitter.com/BillGates,https://www.biographyonline.net/business/bill-gates.html,https://www.facebook.com › Pages › Public Figure,https://www.forbes.com/.../bill-gates-admits-that-his-biggest-mistake-was-letting-andro...,https://www.forbes.com/profile/bill-gates/,https://www.gatesnotes.com/,https://www.youtube.com/channel/UCnEiGCE13SUI7ZvojTAVBKw")'; stored result as ${atmecsRecord}
+2019-07-30 10:45:33,536|I|Thread-1|Evaluation2.20190730_104521.003|WebAutomation|Activity 1|# 16|rdbms.saveResult(db,sql,o - executing saveResult(db,sql,output)(mydb, Select * from link_desc where name="${search_var}", $(syspath|out|fullpath)/${search_var}.csv)
+2019-07-30 10:45:33,542|I|Thread-1|Evaluation2.20190730_104521.003|WebAutomation|Activity 1|# 16|rdbms.saveResult(db,sql,o - reusing established connection 'mydb'
+2019-07-30 10:45:33,551|I|Thread-1|Evaluation2.20190730_104521.003|WebAutomation|Activity 1|# 16|rdbms.saveResult(db,sql,o - executed query in 3 ms with 2 row(s)
+2019-07-30 10:45:33,567|I|Thread-1|Evaluation2.20190730_104521.003|WebAutomation|Activity 1|# 16|rdbms.saveResult(db,sql,o - PASS executed SQL 'Select * from link_desc where name="Bill Gates"'; stored result to 'C:\projects\Evaluation2\output\20190730_104436\Bill Gates.csv'
+2019-07-30 10:45:33,744|I|Thread-1|[Evaluation2.20190730_104521.003|WebAutomation] saving test scenario
+2019-07-30 10:45:33,777|I|Thread-1|Evaluation2.20190730_104521.003|Scenario - executing test scenario
+2019-07-30 10:45:33,779|I|Thread-1|Evaluation2.20190730_104521.003|Scenario|Activity 1 - executing activity
+2019-07-30 10:45:34,381|I|Thread-1|Evaluation2.20190730_104521.003|Scenario|Activity 1|#  5|rdbms.runSQL(var,db,sql) - executing runSQL(var,db,sql)(student, mydb2, CREATE TABLE STUDENT(  
+   ID INT PRIMARY KEY     NOT NULL,  
+   NAME           TEXT    NOT NULL,  
+   DOB          INT     NOT NULL,  
+   ADDRESS        CHAR(50)
+);   )
+2019-07-30 10:45:34,398|I|Thread-1|Evaluation2.20190730_104521.003|Scenario|Activity 1|#  5|rdbms.runSQL(var,db,sql) - reusing established connection 'mydb2'
+2019-07-30 10:45:34,403|I|Thread-1|Evaluation2.20190730_104521.003|Scenario|Activity 1|#  5|rdbms.runSQL(var,db,sql) - executed query in 1 ms with ERROR Error occurred when executing 'CREATE TABLE STUDENT(  
+   ID INT PRIMARY KEY     NOT NULL,  
+   NAME           TEXT    NOT NULL,  
+   DOB          INT     NOT NULL,  
+   ADDRESS        CHAR(50)
+);': [SQLITE_ERROR] SQL error or missing database (table STUDENT already exists)
+2019-07-30 10:45:34,471|I|Thread-1|Evaluation2.20190730_104521.003|Scenario|Activity 1|#  5|rdbms.runSQL(var,db,sql) - PASS executed SQL 'CREATE TABLE STUDENT(  
+   ID INT PRIMARY KEY     NOT NULL,  
+   NAME           TEXT    NOT NULL,  
+   DOB          INT     NOT NULL,  
+   ADDRESS        CHAR(50)
+);   '; stored result as ${student}
+2019-07-30 10:45:35,076|I|Thread-1|Evaluation2.20190730_104521.003|Scenario|Activity 1|#  6|rdbms.runSQL(var,db,sql) - executing runSQL(var,db,sql)(department, mydb2, CREATE TABLE DEPARTMENT(  
+ ID INT PRIMARY KEY      NOT NULL,  
+  DEPT           CHAR(50) NOT NULL
+);   )
+2019-07-30 10:45:35,089|I|Thread-1|Evaluation2.20190730_104521.003|Scenario|Activity 1|#  6|rdbms.runSQL(var,db,sql) - reusing established connection 'mydb2'
+2019-07-30 10:45:35,098|I|Thread-1|Evaluation2.20190730_104521.003|Scenario|Activity 1|#  6|rdbms.runSQL(var,db,sql) - executed query in 3 ms with ERROR Error occurred when executing 'CREATE TABLE DEPARTMENT(  
+ ID INT PRIMARY KEY      NOT NULL,  
+  DEPT           CHAR(50) NOT NULL
+);': [SQLITE_ERROR] SQL error or missing database (table DEPARTMENT already exists)
+2019-07-30 10:45:35,160|I|Thread-1|Evaluation2.20190730_104521.003|Scenario|Activity 1|#  6|rdbms.runSQL(var,db,sql) - PASS executed SQL 'CREATE TABLE DEPARTMENT(  
+ ID INT PRIMARY KEY      NOT NULL,  
+  DEPT           CHAR(50) NOT NULL
+);   '; stored result as ${department}
+2019-07-30 10:45:35,764|I|Thread-1|Evaluation2.20190730_104521.003|Scenario|Activity 1|#  7|rdbms.runSQL(var,db,sql) - executing runSQL(var,db,sql)(student, mydb2, INSERT INTO STUDENT VALUES (6, 'Shagufta', 29-05-1997, 'Lucknow' );  )
+2019-07-30 10:45:35,770|I|Thread-1|Evaluation2.20190730_104521.003|Scenario|Activity 1|#  7|rdbms.runSQL(var,db,sql) - reusing established connection 'mydb2'
+2019-07-30 10:45:35,776|I|Thread-1|Evaluation2.20190730_104521.003|Scenario|Activity 1|#  7|rdbms.runSQL(var,db,sql) - executed query in 2 ms with ERROR Error occurred when executing 'INSERT INTO STUDENT VALUES (6, 'Shagufta', 29-05-1997, 'Lucknow' );': [SQLITE_CONSTRAINT]  Abort due to constraint violation (UNIQUE constraint failed: STUDENT.ID)
+2019-07-30 10:45:35,785|I|Thread-1|Evaluation2.20190730_104521.003|Scenario|Activity 1|#  7|rdbms.runSQL(var,db,sql) - PASS executed SQL 'INSERT INTO STUDENT VALUES (6, 'Shagufta', 29-05-1997, 'Lucknow' );  '; stored result as ${student}
+2019-07-30 10:45:36,391|I|Thread-1|Evaluation2.20190730_104521.003|Scenario|Activity 1|#  8|rdbms.runSQL(var,db,sql) - executing runSQL(var,db,sql)(department, mydb2, INSERT INTO DEPARTMENT VALUES (6, 'CSE' );  )
+2019-07-30 10:45:36,397|I|Thread-1|Evaluation2.20190730_104521.003|Scenario|Activity 1|#  8|rdbms.runSQL(var,db,sql) - reusing established connection 'mydb2'
+2019-07-30 10:45:36,406|I|Thread-1|Evaluation2.20190730_104521.003|Scenario|Activity 1|#  8|rdbms.runSQL(var,db,sql) - executed query in 1 ms with ERROR Error occurred when executing 'INSERT INTO DEPARTMENT VALUES (6, 'CSE' );': [SQLITE_CONSTRAINT]  Abort due to constraint violation (UNIQUE constraint failed: DEPARTMENT.ID)
+2019-07-30 10:45:36,420|I|Thread-1|Evaluation2.20190730_104521.003|Scenario|Activity 1|#  8|rdbms.runSQL(var,db,sql) - PASS executed SQL 'INSERT INTO DEPARTMENT VALUES (6, 'CSE' );  '; stored result as ${department}
+2019-07-30 10:45:37,027|I|Thread-1|Evaluation2.20190730_104521.003|Scenario|Activity 1|#  9|rdbms.resultToCSV(var,csv - executing resultToCSV(var,csvFile,delim,showHeader)(student, $(syspath|out|fullpath)/student.csv, ,, true)
+2019-07-30 10:45:37,047|I|Thread-1|Evaluation2.20190730_104521.003|Scenario|Activity 1|#  9|rdbms.resultToCSV(var,csv - PASS errors from previous command written to 'C:\projects\Evaluation2\output\20190730_104436\student.csv'
+2019-07-30 10:45:37,653|I|Thread-1|Evaluation2.20190730_104521.003|Scenario|Activity 1|# 10|rdbms.resultToCSV(var,csv - executing resultToCSV(var,csvFile,delim,showHeader)(department, $(syspath|out|fullpath)/department.csv, ,, true)
+2019-07-30 10:45:37,682|I|Thread-1|Evaluation2.20190730_104521.003|Scenario|Activity 1|# 10|rdbms.resultToCSV(var,csv - PASS errors from previous command written to 'C:\projects\Evaluation2\output\20190730_104436\department.csv'
+2019-07-30 10:45:37,770|I|Thread-1|[Evaluation2.20190730_104521.003|Scenario] saving test scenario
+2019-07-30 10:45:37,816|I|Thread-1|[20190730_104436] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\Evaluation2\output\20190730_104436\Evaluation2.20190730_104521.003.xlsx
+| Iteration:      3
+\-------------------------------------------------------------------------------
+» Execution Time: 15505 ms
+» Test Steps:     18
+» Error(s):       0
+
+
+
+2019-07-30 10:45:38,211|I|Thread-1|[20190730_104436] create directory C:\projects\Evaluation2\output\20190730_104436\captures
+2019-07-30 10:45:38,211|I|Thread-1|[20190730_104436] create directory C:\projects\Evaluation2\output\20190730_104436\logs
+2019-07-30 10:45:38,413|I|Thread-1|[20190730_104436] merging test data to tmp file C:\projects\Evaluation2\output\20190730_104436\Evaluation2.20190730_104538.004.xlsx
+2019-07-30 10:45:38,415|I|Thread-1|refetching data from C:\projects\Evaluation2\artifact\data\Evaluation2.data.xlsx
+2019-07-30 10:45:38,533|I|Thread-1|[20190730_104436] test script and test data merged to C:\projects\Evaluation2\output\20190730_104436\Evaluation2.20190730_104538.004.xlsx
+2019-07-30 10:45:38,766|I|Thread-1|STARTS
+2019-07-30 10:45:38,769|I|Thread-1|Evaluation2.20190730_104538.004 - executing iteration #4 of 4; Iteration Id 4
+2019-07-30 10:45:38,770|I|Thread-1|Evaluation2.20190730_104538.004|WebAutomation - executing test scenario
+2019-07-30 10:45:38,771|I|Thread-1|Evaluation2.20190730_104538.004|WebAutomation|Activity 1 - executing activity
+2019-07-30 10:45:39,371|I|Thread-1|Evaluation2.20190730_104538.004|WebAutomation|Activity 1|#  5|web.open(url) - executing open(url)(https://www.google.com)
+2019-07-30 10:45:40,624|I|Thread-1|current browser window handle:CDwindow-57068FB3EF88F1884A81751EC7D08B81
+2019-07-30 10:45:40,643|I|Thread-1|Evaluation2.20190730_104538.004|WebAutomation|Activity 1|#  5|web.open(url) - PASS opened URL https://www.google.com
+2019-07-30 10:45:41,247|I|Thread-1|Evaluation2.20190730_104538.004|WebAutomation|Activity 1|#  6|web.assertTitle(text) - executing assertTitle(text)(Google)
+2019-07-30 10:45:41,300|I|Thread-1|Evaluation2.20190730_104538.004|WebAutomation|Activity 1|#  6|web.assertTitle(text) - PASS 
+2019-07-30 10:45:41,904|I|Thread-1|Evaluation2.20190730_104538.004|WebAutomation|Activity 1|#  7|web.type(locator,value) - executing type(locator,value)(//input[@name='q'], ${search_var})
+2019-07-30 10:45:42,269|I|Thread-1|Evaluation2.20190730_104538.004|WebAutomation|Activity 1|#  7|web.type(locator,value) - PASS typed text at '//input[@name='q']'
+2019-07-30 10:45:42,873|I|Thread-1|Evaluation2.20190730_104538.004|WebAutomation|Activity 1|#  8|web.click(locator) - executing click(locator)(//input[@value='Google Search'])
+2019-07-30 10:45:42,951|I|Thread-1|clicking '//input[@value='Google Search']'...
+2019-07-30 10:45:42,974|I|Thread-1|click target via JS, @id=
+2019-07-30 10:45:44,608|I|Thread-1|clicked -> true
+2019-07-30 10:45:44,609|I|Thread-1|Evaluation2.20190730_104538.004|WebAutomation|Activity 1|#  8|web.click(locator) - PASS click via JS event
+2019-07-30 10:45:45,211|I|Thread-1|Evaluation2.20190730_104538.004|WebAutomation|Activity 1|#  9|web.saveTextArray(var,loc - executing saveTextArray(var,locator)(atmecs, class=iUh30)
+2019-07-30 10:45:45,495|I|Thread-1|Evaluation2.20190730_104538.004|WebAutomation|Activity 1|#  9|web.saveTextArray(var,loc - PASS stored content of 'class=iUh30' as ${atmecs}
+2019-07-30 10:45:46,098|I|Thread-1|Evaluation2.20190730_104538.004|WebAutomation|Activity 1|# 10|base.verbose(text) - executing verbose(text)(${atmecs})
+2019-07-30 10:45:46,105|I|Thread-1|Evaluation2.20190730_104538.004|WebAutomation|Activity 1|# 10|base.verbose(text) - https://en.wikipedia.org/wiki/Sachin_Tendulkar,https://twitter.com/sachin_rt,https://www.cricbuzz.com/profiles/25/sachin-tendulkar,www.espncricinfo.com/india/content/player/35320.html,,,,,https://www.facebook.com › Pages › Public Figure › Athlete,https://sports.ndtv.com › Cricket › Players,https://www.sportskeeda.com/player/sachin-tendulkar
+2019-07-30 10:45:46,119|I|Thread-1|Evaluation2.20190730_104538.004|WebAutomation|Activity 1|# 10|base.verbose(text) - PASS 
+2019-07-30 10:45:46,726|I|Thread-1|Evaluation2.20190730_104538.004|WebAutomation|Activity 1|# 11|base.save(var,value) - executing save(var,value)(atmecs_length, $(array|length|${atmecs}))
+2019-07-30 10:45:46,734|I|Thread-1|Evaluation2.20190730_104538.004|WebAutomation|Activity 1|# 11|base.save(var,value) - PASS stored '11' as ${atmecs_length}
+2019-07-30 10:45:47,341|I|Thread-1|Evaluation2.20190730_104538.004|WebAutomation|Activity 1|# 12|base.verbose(text) - executing verbose(text)(${atmecs_length})
+2019-07-30 10:45:47,349|I|Thread-1|Evaluation2.20190730_104538.004|WebAutomation|Activity 1|# 12|base.verbose(text) - 11
+2019-07-30 10:45:47,355|I|Thread-1|Evaluation2.20190730_104538.004|WebAutomation|Activity 1|# 12|base.verbose(text) - PASS 
+2019-07-30 10:45:47,958|I|Thread-1|Evaluation2.20190730_104538.004|WebAutomation|Activity 1|# 13|base.save(var,value) - executing save(var,value)(atmecsSorted, $(array|ascending|${atmecs}))
+2019-07-30 10:45:47,970|I|Thread-1|Evaluation2.20190730_104538.004|WebAutomation|Activity 1|# 13|base.save(var,value) - PASS stored ',,,,https://en.wikipedia.org/wiki/Sachin_Tendulkar,https://sports.ndtv.com › Cricket › Players,https://twitter.com/sachin_rt,https://www.cricbuzz.com/profiles/25/sachin-tendulkar,https://www.facebook.com › Pages › Public Figure › Athlete,https://www.sportskeeda.com/player/sachin-tendulkar,www.espncricinfo.com/india/content/player/35320.html' as ${atmecsSorted}
+2019-07-30 10:45:48,585|I|Thread-1|Evaluation2.20190730_104538.004|WebAutomation|Activity 1|# 14|base.verbose(text) - executing verbose(text)(${atmecsSorted})
+2019-07-30 10:45:48,590|I|Thread-1|Evaluation2.20190730_104538.004|WebAutomation|Activity 1|# 14|base.verbose(text) - ,,,,https://en.wikipedia.org/wiki/Sachin_Tendulkar,https://sports.ndtv.com › Cricket › Players,https://twitter.com/sachin_rt,https://www.cricbuzz.com/profiles/25/sachin-tendulkar,https://www.facebook.com › Pages › Public Figure › Athlete,https://www.sportskeeda.com/player/sachin-tendulkar,www.espncricinfo.com/india/content/player/35320.html
+2019-07-30 10:45:48,607|I|Thread-1|Evaluation2.20190730_104538.004|WebAutomation|Activity 1|# 14|base.verbose(text) - PASS 
+2019-07-30 10:45:49,212|I|Thread-1|Evaluation2.20190730_104538.004|WebAutomation|Activity 1|# 15|rdbms.runSQL(var,db,sql) - executing runSQL(var,db,sql)(atmecsRecord, mydb, Insert into link_desc values ("${search_var}" ,"${atmecsSorted}"))
+2019-07-30 10:45:49,221|I|Thread-1|Evaluation2.20190730_104538.004|WebAutomation|Activity 1|# 15|rdbms.runSQL(var,db,sql) - reusing established connection 'mydb'
+2019-07-30 10:45:49,310|I|Thread-1|Evaluation2.20190730_104538.004|WebAutomation|Activity 1|# 15|rdbms.runSQL(var,db,sql) - executed query in 82 ms with 1 row(s)
+2019-07-30 10:45:49,323|I|Thread-1|Evaluation2.20190730_104538.004|WebAutomation|Activity 1|# 15|rdbms.runSQL(var,db,sql) - PASS executed SQL 'Insert into link_desc values ("Sachin Tendulkar" ,",,,,https://en.wikipedia.org/wiki/Sachin_Tendulkar,https://sports.ndtv.com › Cricket › Players,https://twitter.com/sachin_rt,https://www.cricbuzz.com/profiles/25/sachin-tendulkar,https://www.facebook.com › Pages › Public Figure › Athlete,https://www.sportskeeda.com/player/sachin-tendulkar,www.espncricinfo.com/india/content/player/35320.html")'; stored result as ${atmecsRecord}
+2019-07-30 10:45:49,938|I|Thread-1|Evaluation2.20190730_104538.004|WebAutomation|Activity 1|# 16|rdbms.saveResult(db,sql,o - executing saveResult(db,sql,output)(mydb, Select * from link_desc where name="${search_var}", $(syspath|out|fullpath)/${search_var}.csv)
+2019-07-30 10:45:49,945|I|Thread-1|Evaluation2.20190730_104538.004|WebAutomation|Activity 1|# 16|rdbms.saveResult(db,sql,o - reusing established connection 'mydb'
+2019-07-30 10:45:49,957|I|Thread-1|Evaluation2.20190730_104538.004|WebAutomation|Activity 1|# 16|rdbms.saveResult(db,sql,o - executed query in 4 ms with 2 row(s)
+2019-07-30 10:45:49,972|I|Thread-1|Evaluation2.20190730_104538.004|WebAutomation|Activity 1|# 16|rdbms.saveResult(db,sql,o - PASS executed SQL 'Select * from link_desc where name="Sachin Tendulkar"'; stored result to 'C:\projects\Evaluation2\output\20190730_104436\Sachin Tendulkar.csv'
+2019-07-30 10:45:50,114|I|Thread-1|[Evaluation2.20190730_104538.004|WebAutomation] saving test scenario
+2019-07-30 10:45:50,151|I|Thread-1|Evaluation2.20190730_104538.004|Scenario - executing test scenario
+2019-07-30 10:45:50,153|I|Thread-1|Evaluation2.20190730_104538.004|Scenario|Activity 1 - executing activity
+2019-07-30 10:45:50,755|I|Thread-1|Evaluation2.20190730_104538.004|Scenario|Activity 1|#  5|rdbms.runSQL(var,db,sql) - executing runSQL(var,db,sql)(student, mydb2, CREATE TABLE STUDENT(  
+   ID INT PRIMARY KEY     NOT NULL,  
+   NAME           TEXT    NOT NULL,  
+   DOB          INT     NOT NULL,  
+   ADDRESS        CHAR(50)
+);   )
+2019-07-30 10:45:50,771|I|Thread-1|Evaluation2.20190730_104538.004|Scenario|Activity 1|#  5|rdbms.runSQL(var,db,sql) - reusing established connection 'mydb2'
+2019-07-30 10:45:50,776|I|Thread-1|Evaluation2.20190730_104538.004|Scenario|Activity 1|#  5|rdbms.runSQL(var,db,sql) - executed query in 0 ms with ERROR Error occurred when executing 'CREATE TABLE STUDENT(  
+   ID INT PRIMARY KEY     NOT NULL,  
+   NAME           TEXT    NOT NULL,  
+   DOB          INT     NOT NULL,  
+   ADDRESS        CHAR(50)
+);': [SQLITE_ERROR] SQL error or missing database (table STUDENT already exists)
+2019-07-30 10:45:50,846|I|Thread-1|Evaluation2.20190730_104538.004|Scenario|Activity 1|#  5|rdbms.runSQL(var,db,sql) - PASS executed SQL 'CREATE TABLE STUDENT(  
+   ID INT PRIMARY KEY     NOT NULL,  
+   NAME           TEXT    NOT NULL,  
+   DOB          INT     NOT NULL,  
+   ADDRESS        CHAR(50)
+);   '; stored result as ${student}
+2019-07-30 10:45:51,452|I|Thread-1|Evaluation2.20190730_104538.004|Scenario|Activity 1|#  6|rdbms.runSQL(var,db,sql) - executing runSQL(var,db,sql)(department, mydb2, CREATE TABLE DEPARTMENT(  
+ ID INT PRIMARY KEY      NOT NULL,  
+  DEPT           CHAR(50) NOT NULL
+);   )
+2019-07-30 10:45:51,463|I|Thread-1|Evaluation2.20190730_104538.004|Scenario|Activity 1|#  6|rdbms.runSQL(var,db,sql) - reusing established connection 'mydb2'
+2019-07-30 10:45:51,470|I|Thread-1|Evaluation2.20190730_104538.004|Scenario|Activity 1|#  6|rdbms.runSQL(var,db,sql) - executed query in 1 ms with ERROR Error occurred when executing 'CREATE TABLE DEPARTMENT(  
+ ID INT PRIMARY KEY      NOT NULL,  
+  DEPT           CHAR(50) NOT NULL
+);': [SQLITE_ERROR] SQL error or missing database (table DEPARTMENT already exists)
+2019-07-30 10:45:51,539|I|Thread-1|Evaluation2.20190730_104538.004|Scenario|Activity 1|#  6|rdbms.runSQL(var,db,sql) - PASS executed SQL 'CREATE TABLE DEPARTMENT(  
+ ID INT PRIMARY KEY      NOT NULL,  
+  DEPT           CHAR(50) NOT NULL
+);   '; stored result as ${department}
+2019-07-30 10:45:52,143|I|Thread-1|Evaluation2.20190730_104538.004|Scenario|Activity 1|#  7|rdbms.runSQL(var,db,sql) - executing runSQL(var,db,sql)(student, mydb2, INSERT INTO STUDENT VALUES (6, 'Shagufta', 29-05-1997, 'Lucknow' );  )
+2019-07-30 10:45:52,150|I|Thread-1|Evaluation2.20190730_104538.004|Scenario|Activity 1|#  7|rdbms.runSQL(var,db,sql) - reusing established connection 'mydb2'
+2019-07-30 10:45:52,155|I|Thread-1|Evaluation2.20190730_104538.004|Scenario|Activity 1|#  7|rdbms.runSQL(var,db,sql) - executed query in 2 ms with ERROR Error occurred when executing 'INSERT INTO STUDENT VALUES (6, 'Shagufta', 29-05-1997, 'Lucknow' );': [SQLITE_CONSTRAINT]  Abort due to constraint violation (UNIQUE constraint failed: STUDENT.ID)
+2019-07-30 10:45:52,168|I|Thread-1|Evaluation2.20190730_104538.004|Scenario|Activity 1|#  7|rdbms.runSQL(var,db,sql) - PASS executed SQL 'INSERT INTO STUDENT VALUES (6, 'Shagufta', 29-05-1997, 'Lucknow' );  '; stored result as ${student}
+2019-07-30 10:45:52,776|I|Thread-1|Evaluation2.20190730_104538.004|Scenario|Activity 1|#  8|rdbms.runSQL(var,db,sql) - executing runSQL(var,db,sql)(department, mydb2, INSERT INTO DEPARTMENT VALUES (6, 'CSE' );  )
+2019-07-30 10:45:52,780|I|Thread-1|Evaluation2.20190730_104538.004|Scenario|Activity 1|#  8|rdbms.runSQL(var,db,sql) - reusing established connection 'mydb2'
+2019-07-30 10:45:52,782|I|Thread-1|Evaluation2.20190730_104538.004|Scenario|Activity 1|#  8|rdbms.runSQL(var,db,sql) - executed query in 0 ms with ERROR Error occurred when executing 'INSERT INTO DEPARTMENT VALUES (6, 'CSE' );': [SQLITE_CONSTRAINT]  Abort due to constraint violation (UNIQUE constraint failed: DEPARTMENT.ID)
+2019-07-30 10:45:52,787|I|Thread-1|Evaluation2.20190730_104538.004|Scenario|Activity 1|#  8|rdbms.runSQL(var,db,sql) - PASS executed SQL 'INSERT INTO DEPARTMENT VALUES (6, 'CSE' );  '; stored result as ${department}
+2019-07-30 10:45:53,390|I|Thread-1|Evaluation2.20190730_104538.004|Scenario|Activity 1|#  9|rdbms.resultToCSV(var,csv - executing resultToCSV(var,csvFile,delim,showHeader)(student, $(syspath|out|fullpath)/student.csv, ,, true)
+2019-07-30 10:45:53,398|I|Thread-1|Evaluation2.20190730_104538.004|Scenario|Activity 1|#  9|rdbms.resultToCSV(var,csv - PASS errors from previous command written to 'C:\projects\Evaluation2\output\20190730_104436\student.csv'
+2019-07-30 10:45:54,004|I|Thread-1|Evaluation2.20190730_104538.004|Scenario|Activity 1|# 10|rdbms.resultToCSV(var,csv - executing resultToCSV(var,csvFile,delim,showHeader)(department, $(syspath|out|fullpath)/department.csv, ,, true)
+2019-07-30 10:45:54,017|I|Thread-1|Evaluation2.20190730_104538.004|Scenario|Activity 1|# 10|rdbms.resultToCSV(var,csv - PASS errors from previous command written to 'C:\projects\Evaluation2\output\20190730_104436\department.csv'
+2019-07-30 10:45:54,129|I|Thread-1|[Evaluation2.20190730_104538.004|Scenario] saving test scenario
+2019-07-30 10:45:54,162|I|Thread-1|[20190730_104436] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\Evaluation2\output\20190730_104436\Evaluation2.20190730_104538.004.xlsx
+| Iteration:      4
+\-------------------------------------------------------------------------------
+» Execution Time: 15390 ms
+» Test Steps:     18
+» Error(s):       0
+
+
+
+2019-07-30 10:45:54,570|I|Thread-1|[20190730_104436] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\Evaluation2\artifact\script\Evaluation2.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 78365 ms
+» Iterations:     [1,2,3,4] total 4
+» Test Steps:     72
+» Passed:         72
+» Error(s):       0
+» Iteration 1 of 4: C:\projects\Evaluation2\output\20190730_104436\Evaluation2.20190730_104437.001.xlsx
+» Iteration 2 of 4: C:\projects\Evaluation2\output\20190730_104436\Evaluation2.20190730_104505.002.xlsx
+» Iteration 3 of 4: C:\projects\Evaluation2\output\20190730_104436\Evaluation2.20190730_104521.003.xlsx
+» Iteration 4 of 4: C:\projects\Evaluation2\output\20190730_104436\Evaluation2.20190730_104538.004.xlsx
+
+
+
+2019-07-30 10:45:55,235|I|main|[20190730_104436] [C:\projects\Evaluation2\artifact\script\Evaluation2.xlsx] now completed
+2019-07-30 10:45:55,237|I|main|[20190730_104436] all execution thread(s) have terminated
+2019-07-30 10:45:55,238|I|main|[20190730_104436] test run completed in about 79 seconds
+2019-07-30 10:45:55,351|I|main|No predefined nexial-setup found
+2019-07-30 10:45:55,401|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-07-30 10:45:55,401|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-07-30 10:45:55,402|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-07-30 10:45:55,403|I|main|generating HTML output for this execution to C:\projects\Evaluation2\output\20190730_104436\execution-output.html
+2019-07-30 10:45:56,257|I|main|generating JUnit XML output for this execution to C:\projects\Evaluation2\output\20190730_104436\junit.xml
+2019-07-30 10:45:56,316|I|main|generated JUnit report for this execution: C:\projects\Evaluation2\output\20190730_104436\junit.xml
+2019-07-30 10:45:56,317|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-07-30 10:45:56,317|I|main|skipped email notification as configured
+2019-07-30 10:45:56,320|I|main|exiting Nexial...
+2019-07-30 10:45:56,321|I|main|shutdown starts...
+2019-07-30 10:45:56,323|I|main|Shutting down 'chrome' webdriver...
+2019-07-30 10:46:04,025|I|main|shutdown ends...
+2019-07-30 10:46:04,029|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 79 sec.
+| » Test Steps....: 72
+| » Passed........: 72
+| » Failed........: 0
+| » Success Rate..: 100.00%
+\----------------------------------------------------------nexial-core dev_0580-
+
+2019-07-30 10:46:04,032|I|main|ALL PASSED!
+2019-07-30 10:46:04,035|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\Evaluation2\output\20190730_104436
+NEXIAL_EXECUTION_HTML: C:\projects\Evaluation2\output\20190730_104436\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\Evaluation2\output\20190730_104436\junit.xml
+NEXIAL_SUCCESS_RATE:   100.00%
+NEXIAL_EXIT_STATUS:    0

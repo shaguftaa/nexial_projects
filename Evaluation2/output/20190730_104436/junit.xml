@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20190730_104436" timestamp="2019-07-30T10:44:36" time="79.106" tests="72" errors="0">
+  <testsuite id="1" name="Evaluation2, Iteration 1 of 4" package="Evaluation2" hostname="ATMECSINDT-051" timestamp="2019-07-30T10:44:37" time="26.882" tests="18" errors="0">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-051" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="shagufta.nisar" />
+      <property name="Iteration" value="1 of 4" />
+      <property name="Script" value="Evaluation2.xlsx" />
+      <property name="Logs" value="C:\projects\Evaluation2\output\20190730_104436\logs\nexial-20190730_104436.log" />
+      <property name="Data File" value="Evaluation2.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="JAVA_OPT" value="-Dorg.apache.poi.util.POILogger=org.apache.poi.util.NullLogger" />
+      <property name="runtime args" value="-script C:\projects\Evaluation2\artifact\script\Evaluation2.xlsx" />
+    </properties>
+    <testcase id="Activity 1" name="Activity 1" classname="WebAutomation" timestamp="2019-07-30T10:44:39" time="24.828">
+      <system-out>Total : 12
+Passed: 12
+Failed: 0
+Output: C:\projects\Evaluation2\output\20190730_104436\Evaluation2.20190730_104437.001.xlsx
+Logs  : C:\projects\Evaluation2\output\20190730_104436\logs\nexial-20190730_104436.log</system-out>
+    </testcase>
+    <testcase id="Activity 1" name="Activity 1" classname="Scenario" timestamp="2019-07-30T10:45:00" time="4.151">
+      <system-out>Total : 6
+Passed: 6
+Failed: 0
+Output: C:\projects\Evaluation2\output\20190730_104436\Evaluation2.20190730_104437.001.xlsx
+Logs  : C:\projects\Evaluation2\output\20190730_104436\logs\nexial-20190730_104436.log</system-out>
+    </testcase>
+  </testsuite>
+  <testsuite id="2" name="Evaluation2, Iteration 2 of 4" package="Evaluation2" hostname="ATMECSINDT-051" timestamp="2019-07-30T10:45:05" time="16.246" tests="18" errors="0">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-051" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="shagufta.nisar" />
+      <property name="Iteration" value="2 of 4" />
+      <property name="Script" value="Evaluation2.xlsx" />
+      <property name="Logs" value="C:\projects\Evaluation2\output\20190730_104436\logs\nexial-20190730_104436.log" />
+      <property name="Data File" value="Evaluation2.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="JAVA_OPT" value="-Dorg.apache.poi.util.POILogger=org.apache.poi.util.NullLogger" />
+      <property name="runtime args" value="-script C:\projects\Evaluation2\artifact\script\Evaluation2.xlsx" />
+    </properties>
+    <testcase id="Activity 1" name="Activity 1" classname="WebAutomation" timestamp="2019-07-30T10:45:05" time="15.341">
+      <system-out>Total : 12
+Passed: 12
+Failed: 0
+Output: C:\projects\Evaluation2\output\20190730_104436\Evaluation2.20190730_104505.002.xlsx
+Logs  : C:\projects\Evaluation2\output\20190730_104436\logs\nexial-20190730_104436.log</system-out>
+    </testcase>
+    <testcase id="Activity 1" name="Activity 1" classname="Scenario" timestamp="2019-07-30T10:45:17" time="4.096">
+      <system-out>Total : 6
+Passed: 6
+Failed: 0
+Output: C:\projects\Evaluation2\output\20190730_104436\Evaluation2.20190730_104505.002.xlsx
+Logs  : C:\projects\Evaluation2\output\20190730_104436\logs\nexial-20190730_104436.log</system-out>
+    </testcase>
+  </testsuite>
+  <testsuite id="3" name="Evaluation2, Iteration 3 of 4" package="Evaluation2" hostname="ATMECSINDT-051" timestamp="2019-07-30T10:45:21" time="16.175" tests="18" errors="0">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-051" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="shagufta.nisar" />
+      <property name="Iteration" value="3 of 4" />
+      <property name="Script" value="Evaluation2.xlsx" />
+      <property name="Logs" value="C:\projects\Evaluation2\output\20190730_104436\logs\nexial-20190730_104436.log" />
+      <property name="Data File" value="Evaluation2.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="JAVA_OPT" value="-Dorg.apache.poi.util.POILogger=org.apache.poi.util.NullLogger" />
+      <property name="runtime args" value="-script C:\projects\Evaluation2\artifact\script\Evaluation2.xlsx" />
+    </properties>
+    <testcase id="Activity 1" name="Activity 1" classname="WebAutomation" timestamp="2019-07-30T10:45:22" time="15.565">
+      <system-out>Total : 12
+Passed: 12
+Failed: 0
+Output: C:\projects\Evaluation2\output\20190730_104436\Evaluation2.20190730_104521.003.xlsx
+Logs  : C:\projects\Evaluation2\output\20190730_104436\logs\nexial-20190730_104436.log</system-out>
+    </testcase>
+    <testcase id="Activity 1" name="Activity 1" classname="Scenario" timestamp="2019-07-30T10:45:33" time="4.095">
+      <system-out>Total : 6
+Passed: 6
+Failed: 0
+Output: C:\projects\Evaluation2\output\20190730_104436\Evaluation2.20190730_104521.003.xlsx
+Logs  : C:\projects\Evaluation2\output\20190730_104436\logs\nexial-20190730_104436.log</system-out>
+    </testcase>
+  </testsuite>
+  <testsuite id="4" name="Evaluation2, Iteration 4 of 4" package="Evaluation2" hostname="ATMECSINDT-051" timestamp="2019-07-30T10:45:38" time="15.999" tests="18" errors="0">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-051" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="shagufta.nisar" />
+      <property name="Iteration" value="4 of 4" />
+      <property name="Script" value="Evaluation2.xlsx" />
+      <property name="Logs" value="C:\projects\Evaluation2\output\20190730_104436\logs\nexial-20190730_104436.log" />
+      <property name="Data File" value="Evaluation2.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="JAVA_OPT" value="-Dorg.apache.poi.util.POILogger=org.apache.poi.util.NullLogger" />
+      <property name="runtime args" value="-script C:\projects\Evaluation2\artifact\script\Evaluation2.xlsx" />
+    </properties>
+    <testcase id="Activity 1" name="Activity 1" classname="WebAutomation" timestamp="2019-07-30T10:45:38" time="15.438">
+      <system-out>Total : 12
+Passed: 12
+Failed: 0
+Output: C:\projects\Evaluation2\output\20190730_104436\Evaluation2.20190730_104538.004.xlsx
+Logs  : C:\projects\Evaluation2\output\20190730_104436\logs\nexial-20190730_104436.log</system-out>
+    </testcase>
+    <testcase id="Activity 1" name="Activity 1" classname="Scenario" timestamp="2019-07-30T10:45:50" time="4.056">
+      <system-out>Total : 6
+Passed: 6
+Failed: 0
+Output: C:\projects\Evaluation2\output\20190730_104436\Evaluation2.20190730_104538.004.xlsx
+Logs  : C:\projects\Evaluation2\output\20190730_104436\logs\nexial-20190730_104436.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
